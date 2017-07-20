@@ -1,13 +1,21 @@
---- challenge ---
-## Challenge: Make it harder
+## Hiding the treasure
 
-Are you finding the game too easy? Why not make it harder.
-
-You could show the coin for less time. `sleep(2)` shows the coin for 2 seconds. What about `sleep(0.5)`?
-
-Or how about confusing the player by making all the pixels turn yellow before they get to pick the location? Use `sense.clear(Y)` to fill the screen with yellow coins after showing the player where the coin is hidden, you'll also need `sleep(1)` or however many seconds you want to show the yellow screen for.
-
-![screenshot](images/treasure-challenge-coins.png)
+First let's show a yellow coin at a random pixel and then hide it.  
 
 
---- /challenge ---
+
++ Open the Where's the Treasure? Starter Trinket: <a href="http://jumpto.cc/treasure-go" target="_blank">jumpto.cc/treasure-go</a>.
+
++ Take a look at the code that has been included for you. This sets up the Sense HAT and the libraries you will be using, and also includes some helper code so that you can get to the interesting stuff more quickly:
+
+    ![screenshot](images/treasure-starter.png)
+
++ Let's display a yellow coin at a random location and then hide it. The `coinx` and `coiny` variables are the x and y coordinates of the coin. Go to the bottom of the script and add the following code:
+
+    ![screenshot](images/treasure-coin.png)
+
+    Make sure you use a capital letter `Y`.
+
++ Run your code a few times to see the coin appear and disappear at random locations. 
+
+

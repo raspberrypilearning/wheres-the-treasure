@@ -13,6 +13,10 @@ interests: ''
 technologies: sense-hat
 site_areas: codeclub, sense-hat
 steps:
+- title: 'Introduction: '
+- title: Hiding the treasure
+- title: Finding the treasure
+- title: Keeping score
 - title: 'Challenge: Customize the game'
 - title: 'Challenge: Make it harder'
 

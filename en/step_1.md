@@ -1,12 +1,23 @@
---- challenge ---
-## Challenge: Customize the game
+## Introduction: 
 
-Try using different colours or showing a different message depending on how well the player did.
+In this project you will use the joystick and LED Matrix on the Sense HAT to play a memory game. The Sense HAT will show a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
+
+You will be writing code in the Python programming language, which you may have learnt in the [Python module](../../python/).
+
+<div class="trinket">
+<iframe src="https://trinket.io/embed/python/79ac6a377d?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+<img src="images/treasure-final.png">
+</div>
+
+To play the game press Run and watch to see where the yellow dot appears - this is the treasure! Then use the arrow keys on the keyboard to move the white dot to where you think the treasure is hidden. When you get there, press return. You'll see a green dot if you were correct and a red dot if you got it wrong. You'll get 10 tries and then a score out of 10.
+
+Note that when you are using the Sense HAT emulator you use the arrow keys and return instead of the joystick on the Sense HAT.
 
 
---- /challenge ---### Additional information for club leaders
+### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](./print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/wheres-the-treasure/print).
 
 
 --- collapse ---
