@@ -17,7 +17,7 @@ Note that when you are using the Sense HAT emulator you use the arrow keys and r
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/wheres-the-treasure/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print).
 
 
 --- collapse ---
