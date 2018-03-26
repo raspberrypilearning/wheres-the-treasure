@@ -5,18 +5,21 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Where's the Treasure?
 description: Remember where the coin is hidden
 original_url: https://codeclubprojects.org/en-GB/sense-hat/wheres-the-treasure
-interests: ''
+interests: games
 technologies: sense-hat
-site_areas: codeclub, sense-hat
-steps:
+site_areas: projects
+hardware: sense-hat
+software: ''
+version: 3
+last_tested: 2017-01-01
+steps: 
 - title: 'Introduction: '
 - title: Hiding the treasure
 - title: Finding the treasure
 - title: Keeping score
 - title: 'Challenge: Customize the game'
 - title: 'Challenge: Make it harder'
-
