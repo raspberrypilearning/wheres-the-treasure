@@ -1,80 +1,80 @@
-## Introduction:
+## परिचय:
 
-In this project you will use the joystick and LED Matrix on the Sense HAT to play a memory game. The Sense HAT will show a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
+इस प्रोजेक्ट में आप मेमोरी गेम खेलने के लिए Sense HAT पर जॉयस्टिक और LED मैट्रिक्स का उपयोग करेंगे। Sense HAT एक सोने का सिक्का दिखाएगा और आपको यह याद रखना होगा कि यह कहाँ था और छिपे हुए खज़ाने को खोजने के लिए जॉयस्टिक का उपयोग करना होगा।
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/79ac6a377d?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark">
 </iframe> <img src="images/treasure-final.png" />
 </div>
 
-To play the game press Run and watch to see where the yellow dot appears - this is the treasure! Then use the arrow keys on the keyboard to move the white dot to where you think the treasure is hidden. When you get there, press return. You'll see a green dot if you were correct and a red dot if you got it wrong. You'll get 10 tries and then a score out of 10.
+गेम खेलने के लिए Run (चलाएँ) को दबाएँ और यह देखने पर ध्यान रखें कि पीला बिंदु कहाँ दिखाई देता है - यही खज़ाना है! फिर सफेद बिंदु को उस स्थान पर ले जाने के लिए कुंजीपटल पर तीर कुंजियों का उपयोग करें जहाँ आपको लगता है कि खज़ाना छिपा है। जब आप वहाँ पहुँच जाएँ, तो रिटर्न दबाएँ। यदि आप सही थे तो आपको हरे रंग का बिंदु दिखाई देगा और यदि आपका अनुमान गलत था तो लाल बिंदु दिखाई देगा। आप 10 बार कोशिश कर सकते हैं और फिर आपको 10 में से अंक मिलेंगे।
 
-Note that when you are using the Sense HAT emulator you use the arrow keys and return instead of the joystick on the Sense HAT.
+ध्यान दें कि जब आप Sense HAT एमुलेटर का उपयोग कर रहे होते हैं तो आप Sense HAT पर जॉयस्टिक के बजाय तीर कुंजियों और रिटर्न का उपयोग करते हैं।
 
-### Additional information for club leaders
+### क्लब लीडरों के लिए अतिरिक्त जानकारी
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print).
+यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print) का उपयोग करें।
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: क्लब नेता नोट्स
 
-## Introduction:
+## परिचय:
 
-In this project, children will learn how to use the Sense HAT joystick to create a memory game. The Sense HAT shows a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
+इस प्रोजेक्ट में, बच्चे सीखेंगे कि मेमोरी गेम बनाने के लिए Sense HAT जॉयस्टिक का उपयोग कैसे करें। Sense HAT एक सोने का सिक्का दिखाता है और आपको यह याद रखना होगा कि यह कहाँ था और छिपे हुए खज़ाने को खोजने के लिए जॉयस्टिक का उपयोग करना होगा।
 
-## Online Resources
+## ऑनलाइन संसाधन
 
-**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**इस प्रोजेक्ट में Python 3 का उपयोग किया जाता है।** Python को ऑनलाइन लिखने के लिए हम [Trinket](https://trinket.io/) का उपयोग करने की सलाह देते हैं। इस प्रोजेक्ट में निम्नलिखित Trinket हैं:
 
-* ['Where's the Treasure?' Starter Trinket -- jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
+* ['खज़ाना कहाँ है?' स्टार्टर Trinket - jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
 
-There is also a trinket containing the completed project:
+एक ऐसा trinket भी है जिसमें पूर्ण किया गया प्रोजेक्ट है:
 
-* [‘Where's the Treasure’ Finished -- trinket.io/python/79ac6a377d](https://trinket.io/python/79ac6a377d)
+* ['खज़ाना कहाँ है?' समाप्त -- trinket.io/python/79ac6a377d](https://trinket.io/python/79ac6a377d)
 
-## Offline Resources
+## ऑफ़लाइन संसाधन
 
-This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+इस प्रोजेक्ट को Sense HAT से किसी Raspberry Pi कंप्यूटर पर [ऑफ़लाइन भी पूरा किया जा सकता है](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/)। आप इस प्रोजेक्ट के लिए 'प्रोजेक्ट सामग्री' लिंक पर क्लिक करके प्रोजेक्ट के संसाधनों पर पहुँच प्राप्त कर सकते हैं। इस लिंक में 'प्रोजेक्ट संसाधन' खंड है, जिसमें ऐसे संसाधन सम्मिलित हैं जिसकी बच्चों को इस प्रोजेक्ट को ऑफ़लाइन पूरा करने के लिए ज़रूरत होगी। सुनिश्चित करें कि प्रत्येक बच्चे को इन संसाधनों की प्रतिलिपि तक पहुँच प्राप्त होती है। इस खंड में निम्नलिखित फाइलें शामिल हैं:
 
 * treasure/treasure.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+आपको 'स्वैच्छिक संसाधन' खंड में इस प्रोजेक्ट का पूर्ण किया गया संस्करण भी मिल सकता है, जिसमें निम्न शामिल हैं:
 
 * treasure-finished/treasure.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(उपर्युक्त सभी संसाधन प्रोजेक्ट और स्वैच्छिक `.zip` फ़ाइलों के रूप में भी डाउनलोड किए जा सकते हैं।)
 
-## Learning Objectives
+## सीखने के उद्देश्य
 
-* Sense HAT joystick;
-* Boolean logic;
+* Sense HAT जॉयस्टिक;
+* बूलियन तर्क;
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+इस प्रोजेक्ट में [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum) के निम्नलिखित पहलुओं के तत्व सम्मिलित हैं:
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [किसी समस्या को हल करने के लिए प्रोग्रामिंग संरचनाओं को जोड़ें।](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## चुनौतियाँ
 
-* Customize the game - use different colours or add text messages. 
-* Make it harder - show the coin for less time or confuse players by filling the display with coins after showing the hidden coin. 
+* गेम को अनुकूलित करना - विभिन्न रंगों का उपयोग करना या पाठ संदेश जोड़ना। 
+* इसे कठिन बनाना - सिक्का कम समय के लिए दिखाना या छिपे हुए सिक्के को दिखाने के बाद प्रदर्शन को सिक्कों से भरकर खिलाड़ियों को भ्रमित करना। 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: प्रोजेक्ट सामग्री
 
-## Project resources
+## प्रोजेक्ट संसाधन
 
-* [.zip file containing all project resources](resources/treasure-project-resources.zip)
-* [Starter project](http://jumpto.cc/treasure-go)
-* [Offline starter Python file](resources/treasure-treasure.py)
+* [सभी प्रोजेक्ट संसाधनों वाली .zip फ़ाइल](resources/treasure-project-resources.zip)
+* [स्टार्टर प्रोजेक्ट](http://jumpto.cc/treasure-go)
+* [ऑफ़लाइन स्टार्टर Python फ़ाइल](resources/treasure-treasure.py)
 
-## Club leader resources
+## क्लब लीडर संसाधन
 
-* [.zip file containing all completed project resources](resources/treasure-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/79ac6a377d)
+* [सभी प्रोजेक्ट संसाधनों वाली .zip फ़ाइल](resources/treasure-volunteer-resources.zip)
+* [ऑनलाइन पूर्ण Trinket प्रोजेक्ट](https://trinket.io/python/79ac6a377d)
 * [treasure-finished/treasure.py](resources/treasure-finished-treasure.py)
 
 \--- /collapse \---
