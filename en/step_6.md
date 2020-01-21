@@ -1,4 +1,5 @@
 --- challenge ---
+
 ## Challenge: Make it harder
 
 Are you finding the game too easy? Why not make it harder.
