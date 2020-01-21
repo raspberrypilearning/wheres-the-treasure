@@ -69,6 +69,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 ---
 title: Project materials
 ---
+
 ## Project resources
 * [.zip file containing all project resources](resources/treasure-project-resources.zip)
 * [Starter project](http://jumpto.cc/treasure-go)
