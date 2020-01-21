@@ -6,26 +6,26 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Where's the Treasure?
-description: Remember where the coin is hidden
+title: खज़ाना कहाँ है?
+description: याद रखें कि सिक्का कहाँ छिपा है
 original_url: https://codeclubprojects.org/en-GB/sense-hat/wheres-the-treasure
 interests: games
 technologies: sense-hat
-site_areas: projects
+site_areas: प्रोजेक्ट
 hardware: sense-hat
 software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction: '
+    title: 'परिचय: '
   - 
-    title: Hiding the treasure
+    title: खज़ाना छिपाना
   - 
-    title: Finding the treasure
+    title: खज़ाना ढूँढना
   - 
-    title: Keeping score
+    title: स्कोर रखना
   - 
-    title: 'Challenge: Customize the game'
+    title: 'चुनौती: खेल को अनुकूलित करना'
   - 
-    title: 'Challenge: Make it harder'
+    title: 'चुनौती: इसे कठिन बनाना'
