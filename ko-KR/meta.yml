@@ -1,0 +1,31 @@
+---
+hero_image: images/wheres-the-treasure.png
+theme: 노란
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, 디자인 -0, 프로그래밍 -1, phys-comp-0, 제조 -0, 커뮤니티 -0
+title: Where's the Treasure?
+description: Remember where the coin is hidden
+original_url: https://codeclubprojects.org/en-GB/sense-hat/wheres-the-treasure
+interests: 게임
+technologies: sense-hat
+site_areas: projects
+hardware: sense-hat
+software: ''
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: '들어가며: '
+  - 
+    title: Hiding the treasure
+  - 
+    title: Finding the treasure
+  - 
+    title: Keeping score
+  - 
+    title: 'Challenge: Customize the game'
+  - 
+    title: 'Challenge: Make it harder'
