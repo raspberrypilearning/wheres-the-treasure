@@ -6,13 +6,13 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Where's the Treasure?
-description: Remember where the coin is hidden
+title: أين الكنز؟
+description: تذكر أين يتم إخفاء العملة
 original_url: https://codeclubprojects.org/en-GB/sense-hat/wheres-the-treasure
 interests: ألعاب
-technologies: sense-hat
+technologies: قبعة حسية
 site_areas: codeclub, python
-hardware: sense-hat
+hardware: قبعة حسية
 software: ''
 version: 3
 last_tested: 2017-01-01
@@ -20,12 +20,12 @@ steps:
   - 
     title: 'المقدمة: '
   - 
-    title: Hiding the treasure
+    title: إخفاء الكنز
   - 
-    title: Finding the treasure
+    title: البحث عن الكنز
   - 
-    title: Keeping score
+    title: حفظ النتيجة
   - 
-    title: 'Challenge: Customize the game'
+    title: 'التحدي: تخصيص اللعبة'
   - 
-    title: 'Challenge: Make it harder'
+    title: 'التحدي: اجعل الأمر أكثر صعوبة'
