@@ -1,4 +1,4 @@
-## Tenere il punteggio
+## Keeping score
 
 At the moment you only get one go at finding the treasure. Let's give the player 10 turns and keep a score.
 
@@ -18,7 +18,7 @@ At the moment you only get one go at finding the treasure. Let's give the player
 
 + You'll also need to add one to the score when a player chooses the correct location:
     
-    ![schermata](images/treasure-score.png)
+    ![screenshot](images/treasure-score.png)
 
 + And finally, let's display the score at the end.
     
