@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## चुनौती: इसे कठिन बनाना
+## Challenge: Make it harder
 
-क्या आपको यह गेम बहुत आसान लग रहा है? क्यों न इसे और कठिन बना दें।
+Are you finding the game too easy? Why not make it harder.
 
-आप सिक्का कम समय के लिए दिखा सकते हैं। `sleep(2)` सिक्के को 2 सेकंड के लिए दिखाता है। `sleep(0.5)` कैसा रहेगा?
+You could show the coin for less time. `sleep(2)` shows the coin for 2 seconds. What about `sleep(0.5)`?
 
-या खिलाड़ी द्वारा जगह चुन लेने से पहले सभी पिक्सेल पीले करके उन्हें भ्रमित करना कैसा रहेगा? जहाँ सिक्का छिपा है खिलाड़ी को वह स्थान दिखाने के बाद स्क्रीन को पीले सिक्कों से भरने के लिए `sense.clear(Y)` का उपयोग करें, या फिर आप पीले रंग की स्क्रीन कितने सेकंड के लिए दिखाना चाहते हैं इसके लिए आपको `sleep(1)` की भी आवश्यकता होगी।
+Or how about confusing the player by making all the pixels turn yellow before they get to pick the location? Use `sense.clear(Y)` to fill the screen with yellow coins after showing the player where the coin is hidden, you'll also need `sleep(1)` or however many seconds you want to show the yellow screen for.
 
-![स्क्रीनशॉट](images/treasure-challenge-coins.png)
+![screenshot](images/treasure-challenge-coins.png)
 
 \--- /challenge \---
