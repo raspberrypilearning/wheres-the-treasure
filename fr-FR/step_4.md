@@ -1,29 +1,29 @@
-## Keeping score
+## Conserver le score
 
-At the moment you only get one go at finding the treasure. Let's give the player 10 turns and keep a score.
+Pour le moment, tu n'as qu'un seul essai pour trouver le trésor. Donnons au joueur 10 tours et conservons un score.
 
-+ Now you'll need a `for` loop to let the player have 10 goes at finding the treasure:
++ Maintenant tu auras besoin d'une boucle `for` pour donner 10 tours au joueur pour rechercher le trésor :
     
     ![capture d'écran](images/treasure-turns.png)
 
-+ In Python, code must be indented to be inside a loop. You don't need to indent the lines one at a time though! Highlight all of the code after the `for` loop then press the 'Tab' on the keyboard and it will all be indented.
++ En Python, le code doit être indenté pour être à l'intérieur d'une boucle. Mais tu n'as pas besoin d'indenter les lignes une par une! Mets en surbrillance tout le code après la boucle ` for ` puis appuies sur « Tab » sur le clavier et tout sera indenté.
     
-    ![screenshot](images/treasure-indent.png)
+    ![capture d'écran](images/treasure-indent.png)
     
-    Make sure all of the code after the `for` gets indented, right to the bottom of the code.
+    Assure-toi que tout le code après le `for` est indenté, jusqu'en bas du code.
 
-+ Next add a score variable which starts at zero:
++ Ajoute ensuite une variable de score qui commence à zéro :
     
     ![capture d'écran](images/treasure-score-variable.png)
 
-+ You'll also need to add one to the score when a player chooses the correct location:
++ Tu devras également ajouter un au score lorsqu'un joueur choisit l'emplacement correct :
     
     ![capture d'écran](images/treasure-score.png)
 
-+ And finally, let's display the score at the end.
++ Et enfin, affichons le score à la fin.
     
-    ![screenshot](images/treasure-show-score.png)
+    ![capture d'écran](images/treasure-show-score.png)
     
-    Make sure there's no indentation before this code, it needs to run after the `for` loop has run 10 times and the game is finished.
+    Assure-toi qu'il n'y a pas d'indentation avant ce code, il doit s'exécuter après que la boucle `for` s'est exécutée 10 fois et que le jeu est terminé.
     
-    + Now play the game. Can you score 10 out 10?
+    + Maintenant joue au jeu. Peux-tu faire 10 sur 10 ?
