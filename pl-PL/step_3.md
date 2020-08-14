@@ -4,7 +4,7 @@ Now let's show the player as a white pixel. You'll need to use the Sense HAT joy
 
 The physical Sense Hat has a mini joystick. You can see a picture of it in the emulator:
 
-![zrzut ekranu](images/treasure-joystick.png)
+![screenshot](images/treasure-joystick.png)
 
 In the emulator you can use the arrow keys for the direction buttons on the joystick and Enter (Return) for pressing the middle button.
 
@@ -12,21 +12,21 @@ Now let's add a pixel that the player can move to where they think the treasure 
 
 + Now display the player's location using a white pixel:
     
-    ![zrzut ekranu](images/treasure-player.png)
+    ![screenshot](images/treasure-player.png)
     
     `x` and `y` are the player's coordinates.
 
 + Let's get the white pixel moving using the joystick. Every time the player presses one of the arrow keys on the joystick we need to clear the current pixel and draw one at the new location. Let's start by allowing the player to move in the y direction (up and down):
     
-    ![zrzut ekranu](images/treasure-move-y.png)
+    ![screenshot](images/treasure-move-y.png)
 
 + Test your code by pressing the up and down arrows on the keyboard.
     
-    ![zrzut ekranu](images/treasure-arrow-keys.png)
+    ![screenshot](images/treasure-arrow-keys.png)
     
     What happens when you reach the top edge and press up?
     
-    ![zrzut ekranu](images/treasure-error.png)
+    ![screenshot](images/treasure-error.png)
     
     If the y position goes below 0 or above 7 then you'll get an error when you try and set the pixel colour.
 
@@ -34,7 +34,7 @@ Now let's add a pixel that the player can move to where they think the treasure 
     
     ![screenshot](images/treasure-move-check.png)
 
-+ Now let's add movement in the x direction. Dodaj podświetlony kod:
++ Now let's add movement in the x direction. Add the highlighted code:
     
     ![screenshot](images/treasure-move.png)
 
@@ -44,6 +44,6 @@ Now let's add a pixel that the player can move to where they think the treasure 
     
     If the player has picked the wrong location then the pixel goes red for 1 second.
     
-    ![zrzut ekranu](images/treasure-check.png)
+    ![screenshot](images/treasure-check.png)
     
     `break` means we don't need to wait for more events after the player has chosen a location, we can stop repeating the loop.
