@@ -1,12 +1,12 @@
-\--- challange \---
+\--- challenge \---
 
-## Challenge: Make it harder
+## Défi : Rends-le plus difficile
 
-Are you finding the game too easy? Why not make it harder.
+Trouves-tu le jeu trop facile? Pourquoi ne pas le rendre plus difficile.
 
-You could show the coin for less time. `sleep(2)` shows the coin for 2 seconds. What about `sleep(0.5)`?
+Tu pourrais montrer la pièce moins longtemps. `sleep(2)` montre la pièce pendant 2 secondes. Que dis-tu de `sleep(0.5)` ?
 
-Or how about confusing the player by making all the pixels turn yellow before they get to pick the location? Use `sense.clear(Y)` to fill the screen with yellow coins after showing the player where the coin is hidden, you'll also need `sleep(1)` or however many seconds you want to show the yellow screen for.
+Ou alors que dirais-tu de perturber le joueur en montrant tous les pixels jaunes avant qu'il n'arrive à choisir l'emplacement? Utilise ` sense.clear (Y) ` pour remplir l'écran de pièces jaunes après avoir montré au joueur où la pièce est cachée, tu auras également besoin de `sleep(1)` ou d'un certain nombre de secondes pendant lesquelles tu souhaites afficher l'écran jaune.
 
 ![capture d'écran](images/treasure-challenge-coins.png)
 
