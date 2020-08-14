@@ -4,7 +4,7 @@ Now let's show the player as a white pixel. You'll need to use the Sense HAT joy
 
 The physical Sense Hat has a mini joystick. You can see a picture of it in the emulator:
 
-![screenshot (στιγμιότυπο οθόνης)](images/treasure-joystick.png)
+![screenshot](images/treasure-joystick.png)
 
 In the emulator you can use the arrow keys for the direction buttons on the joystick and Enter (Return) for pressing the middle button.
 
@@ -34,7 +34,7 @@ Now let's add a pixel that the player can move to where they think the treasure 
     
     ![screenshot](images/treasure-move-check.png)
 
-+ Now let's add movement in the x direction. Πρόσθεσε τον κώδικα που έχει τονιστεί:
++ Now let's add movement in the x direction. Add the highlighted code:
     
     ![screenshot](images/treasure-move.png)
 
