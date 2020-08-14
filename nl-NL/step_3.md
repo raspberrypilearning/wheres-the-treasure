@@ -34,7 +34,7 @@ Now let's add a pixel that the player can move to where they think the treasure 
     
     ![screenshot](images/treasure-move-check.png)
 
-+ Now let's add movement in the x direction. Voeg de gemarkeerde code toe:
++ Now let's add movement in the x direction. Add the highlighted code:
     
     ![screenshot](images/treasure-move.png)
 
