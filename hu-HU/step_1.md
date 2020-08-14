@@ -1,4 +1,4 @@
-## Bevezetés:
+## Introduction:
 
 In this project you will use the joystick and LED Matrix on the Sense HAT to play a memory game. The Sense HAT will show a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
@@ -11,7 +11,7 @@ To play the game press Run and watch to see where the yellow dot appears - this 
 
 Note that when you are using the Sense HAT emulator you use the arrow keys and return instead of the joystick on the Sense HAT.
 
-### További információk klubvezetőknek
+### Additional information for club leaders
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print).
 
@@ -19,7 +19,7 @@ If you need to print this project, please use the [Printer friendly version](htt
 
 ## title: Club leader notes
 
-## Bevezetés:
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT joystick to create a memory game. The Sense HAT shows a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
