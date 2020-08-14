@@ -7,15 +7,15 @@ from random import randint
 sense = SenseHat()
 sense.clear()
 
-# Just return the actions we are interested in
-def wait_for_move():
+# On renvoie seulement les actions qui nous intéressent
+def attendre_mouvement():
   while True:
-    e = sense.stick.wait_for_event()
+    e = sense.stick.attendre_evenement()
     if e.action != ACTION_RELEASED:
       return e
 
-R = [255, 0, 0]  # red
-Y = [255, 255, 0] # yellow
-G = [0, 255, 0] # green
-W = [255, 255, 255] # white
+R = [255, 0, 0]  # rouge
+J = [255, 255, 0] # jaune
+V = [0, 255, 0] # vert
+W = [255, 255, 255] # blanc
 
