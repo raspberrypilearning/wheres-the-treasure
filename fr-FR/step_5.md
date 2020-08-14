@@ -1,4 +1,4 @@
-—- challenge —-
+--- challenge ---
 
 ## Défi : personnaliser le jeu
 
