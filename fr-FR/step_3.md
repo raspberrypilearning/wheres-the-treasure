@@ -1,49 +1,49 @@
-## Finding the treasure
+## Découvrir le trésor
 
-Now let's show the player as a white pixel. You'll need to use the Sense HAT joystick to navigate to where you think the treasure is hidden.
+Maintenant, montrons le joueur avec un pixel blanc. Tu devras utiliser le joystick du « Sense HAT » pour naviguer là où tu penses que le trésor est caché.
 
-The physical Sense Hat has a mini joystick. You can see a picture of it in the emulator:
+Le « Sense HAT » physique a un mini joystick. Tu peux en voir une image dans l'émulateur :
 
-![screenshot](images/treasure-joystick.png)
+![capture d’écran](images/treasure-joystick.png)
 
-In the emulator you can use the arrow keys for the direction buttons on the joystick and Enter (Return) for pressing the middle button.
+Dans l'émulateur, tu peux utiliser les touches fléchées pour les boutons de direction sur le joystick et Entrée (Retour) pour appuyer sur le bouton central.
 
-Now let's add a pixel that the player can move to where they think the treasure is hidden. The player is a white pixel.
+Maintenant, ajoutons un pixel que le joueur peut déplacer là où il pense que le trésor est caché. Le joueur est un pixel blanc.
 
-+ Now display the player's location using a white pixel:
++ Affiche maintenant l'emplacement du joueur à l'aide d'un pixel blanc :
     
     ![capture d'écran](images/treasure-player.png)
     
-    `x` and `y` are the player's coordinates.
+    `x` et `y` sont les coordonnées du joueur.
 
-+ Let's get the white pixel moving using the joystick. Every time the player presses one of the arrow keys on the joystick we need to clear the current pixel and draw one at the new location. Let's start by allowing the player to move in the y direction (up and down):
++ Faisons bouger le pixel blanc à l'aide du joystick. Chaque fois que le joueur appuie sur l'une des touches fléchées du joystick, nous devons effacer le pixel actuel et en dessiner un au nouvel emplacement. Commençons par permettre au joueur de se déplacer dans la direction y (haut et bas):
     
-    ![screenshot](images/treasure-move-y.png)
+    ![capture d'écran](images/treasure-move-y.png)
 
-+ Test your code by pressing the up and down arrows on the keyboard.
++ Teste ton code en appuyant sur les flèches haut et bas du clavier.
     
     ![capture d'écran](images/treasure-arrow-keys.png)
     
-    What happens when you reach the top edge and press up?
+    Que se passe-t-il lorsque tu atteins le bord supérieur et que tu appuies sur la flèche du haut ?
     
     ![capture d'écran](images/treasure-error.png)
     
-    If the y position goes below 0 or above 7 then you'll get an error when you try and set the pixel colour.
+    Si la position y descend en dessous de 0 ou au-dessus de 7, tu obtiendras une erreur lorsque tu essayeras de définir la couleur du pixel.
 
-+ Let's add a check to make sure the pixel stays on the display:
++ Ajoutons une vérification pour nous assurer que le pixel reste à l'écran :
     
     ![capture d'écran](images/treasure-move-check.png)
 
-+ Now let's add movement in the x direction. Add the highlighted code:
++ Maintenant, ajoutons un mouvement dans la direction x. Ajoute le code en surbrillance :
     
-    ![screenshot](images/treasure-move.png)
+    ![capture d'écran](images/treasure-move.png)
 
-+ Once you have moved to the location where you think the treasure is hidden you need to press the middle button on the joystick. In the emulator you'll need to press Enter (Return) on the keyboard.
++ Une fois que tu t'es déplacé à l'endroit où tu penses que le trésor est caché, tu dois appuyer sur le bouton central du joystick. Dans l'émulateur, tu devras appuyer sur Entrée (Retour) sur le clavier.
     
-    If the player is at the same location as the treasure then they've found it and the pixel goes green for 1 second.
+    Si le joueur est au même emplacement que le trésor, alors il l'a trouvé et le pixel passe au vert pendant 1 seconde.
     
-    If the player has picked the wrong location then the pixel goes red for 1 second.
+    Si le joueur a choisi le mauvais emplacement, alors le pixel devient rouge pendant 1 seconde.
     
     ![capture d'écran](images/treasure-check.png)
     
-    `break` means we don't need to wait for more events after the player has chosen a location, we can stop repeating the loop.
+    `break` signifie que nous n'avons pas besoin d'attendre plus d'événements une fois que le joueur a choisi un emplacement, nous pouvons arrêter de répéter la boucle.
