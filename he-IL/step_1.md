@@ -1,4 +1,4 @@
-## מבוא:
+## Introduction:
 
 In this project you will use the joystick and LED Matrix on the Sense HAT to play a memory game. The Sense HAT will show a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
@@ -11,7 +11,7 @@ To play the game press Run and watch to see where the yellow dot appears - this 
 
 Note that when you are using the Sense HAT emulator you use the arrow keys and return instead of the joystick on the Sense HAT.
 
-### מידע נוסף למורי המועדון
+### Additional information for club leaders
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print).
 
@@ -19,11 +19,11 @@ If you need to print this project, please use the [Printer friendly version](htt
 
 ## title: Club leader notes
 
-## מבוא:
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT joystick to create a memory game. The Sense HAT shows a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
-## משאבים מקוונים
+## Online Resources
 
 **This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
@@ -45,16 +45,16 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## מטרות למידה
+## Learning Objectives
 
 * Sense HAT joystick;
 * Boolean logic;
 
-פרויקט זה מכסה את הנושאים הבאים של [ תוכנית הלימודים הדיגיטלית של רספברי פי ](http://rpf.io/curriculum)
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [שלוב מבני תוכנה כדי לפתור בעיה.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## אתגרים
+## Challenges
 
 * Customize the game - use different colours or add text messages. 
 * Make it harder - show the coin for less time or confuse players by filling the display with coins after showing the hidden coin. 
@@ -71,7 +71,7 @@ You can also find a completed version of this project in the 'Volunteer Resource
 * [Starter project](http://jumpto.cc/treasure-go)
 * [Offline starter Python file](resources/treasure-treasure.py)
 
-## משאבים למורה המועדון
+## Club leader resources
 
 * [.zip file containing all completed project resources](resources/treasure-volunteer-resources.zip)
 * [Online completed Trinket project](https://trinket.io/python/79ac6a377d)
