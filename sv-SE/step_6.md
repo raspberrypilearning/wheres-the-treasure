@@ -8,6 +8,6 @@ You could show the coin for less time. `sleep(2)` shows the coin for 2 seconds. 
 
 Or how about confusing the player by making all the pixels turn yellow before they get to pick the location? Use `sense.clear(Y)` to fill the screen with yellow coins after showing the player where the coin is hidden, you'll also need `sleep(1)` or however many seconds you want to show the yellow screen for.
 
-![skärmdump](images/treasure-challenge-coins.png)
+![screenshot](images/treasure-challenge-coins.png)
 
 \--- /challenge \---
