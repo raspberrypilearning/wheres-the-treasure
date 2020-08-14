@@ -26,15 +26,15 @@ Now let's add a pixel that the player can move to where they think the treasure 
     
     What happens when you reach the top edge and press up?
     
-    ![schermata](images/treasure-error.png)
+    ![screenshot](images/treasure-error.png)
     
     If the y position goes below 0 or above 7 then you'll get an error when you try and set the pixel colour.
 
 + Let's add a check to make sure the pixel stays on the display:
     
-    ![schermata](images/treasure-move-check.png)
+    ![screenshot](images/treasure-move-check.png)
 
-+ Now let's add movement in the x direction. Aggiungi il codice evidenziato:
++ Now let's add movement in the x direction. Add the highlighted code:
     
     ![screenshot](images/treasure-move.png)
 
@@ -44,6 +44,6 @@ Now let's add a pixel that the player can move to where they think the treasure 
     
     If the player has picked the wrong location then the pixel goes red for 1 second.
     
-    ![schermata](images/treasure-check.png)
+    ![screenshot](images/treasure-check.png)
     
     `break` means we don't need to wait for more events after the player has chosen a location, we can stop repeating the loop.
