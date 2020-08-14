@@ -1,4 +1,4 @@
-## Score bijhouden
+## Keeping score
 
 At the moment you only get one go at finding the treasure. Let's give the player 10 turns and keep a score.
 
