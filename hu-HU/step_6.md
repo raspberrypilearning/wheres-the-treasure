@@ -1,4 +1,4 @@
-\--- kihívás \---
+\--- challenge \---
 
 ## Challenge: Make it harder
 
@@ -10,4 +10,4 @@ Or how about confusing the player by making all the pixels turn yellow before th
 
 ![screenshot](images/treasure-challenge-coins.png)
 
-\--- / challenge \---
+\--- /challenge \---
