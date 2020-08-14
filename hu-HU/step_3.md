@@ -12,7 +12,7 @@ Now let's add a pixel that the player can move to where they think the treasure 
 
 + Now display the player's location using a white pixel:
     
-    ![képernyőkép](images/treasure-player.png)
+    ![screenshot](images/treasure-player.png)
     
     `x` and `y` are the player's coordinates.
 
