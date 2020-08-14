@@ -4,25 +4,25 @@ At the moment you only get one go at finding the treasure. Let's give the player
 
 + Now you'll need a `for` loop to let the player have 10 goes at finding the treasure:
     
-    ![截屏](images/treasure-turns.png)
+    ![screenshot](images/treasure-turns.png)
 
 + In Python, code must be indented to be inside a loop. You don't need to indent the lines one at a time though! Highlight all of the code after the `for` loop then press the 'Tab' on the keyboard and it will all be indented.
     
-    ![截屏](images/treasure-indent.png)
+    ![screenshot](images/treasure-indent.png)
     
     Make sure all of the code after the `for` gets indented, right to the bottom of the code.
 
 + Next add a score variable which starts at zero:
     
-    ![截屏](images/treasure-score-variable.png)
+    ![screenshot](images/treasure-score-variable.png)
 
 + You'll also need to add one to the score when a player chooses the correct location:
     
-    ![截屏](images/treasure-score.png)
+    ![screenshot](images/treasure-score.png)
 
 + And finally, let's display the score at the end.
     
-    ![截图](images/treasure-show-score.png)
+    ![screenshot](images/treasure-show-score.png)
     
     Make sure there's no indentation before this code, it needs to run after the `for` loop has run 10 times and the game is finished.
     
