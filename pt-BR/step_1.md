@@ -1,4 +1,4 @@
-## Introdução:
+## Introduction:
 
 In this project you will use the joystick and LED Matrix on the Sense HAT to play a memory game. The Sense HAT will show a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
@@ -11,70 +11,70 @@ To play the game press Run and watch to see where the yellow dot appears - this 
 
 Note that when you are using the Sense HAT emulator you use the arrow keys and return instead of the joystick on the Sense HAT.
 
-### Informação adicional para líderes de clubes
+### Additional information for club leaders
 
-Se você precisar imprimir este projeto, use a [Versão para Impressão](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print).
 
 ## \--- collapse \---
 
-## title: Notas do líder do clube
+## title: Club leader notes
 
-## Introdução:
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT joystick to create a memory game. The Sense HAT shows a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
-## Recursos Online
+## Online Resources
 
-**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. Este projeto contém os seguintes Trinkets:
+**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 * ['Where's the Treasure?' Starter Trinket -- jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
 
-Há também uma trinket contendo o projeto concluído:
+There is also a trinket containing the completed project:
 
 * [‘Where's the Treasure’ Finished -- trinket.io/python/79ac6a377d](https://trinket.io/python/79ac6a377d)
 
-## Recursos Offline
+## Offline Resources
 
-This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. Você pode acessar os recursos disponíveis clicando no link 'Materiais do Projeto'. Este link contém uma seção "Recursos do Projeto", que inclui recursos que as crianças precisarão para concluir esse projeto off-line. Certifique-se de que cada criança tenha acesso a uma cópia desses recursos. Esta seção inclui os seguintes arquivos:
+This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 * treasure/treasure.py
 
-Você também pode encontrar uma versão completa deste projeto na seção 'Recursos para Voluntários', que contém:
+You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 
 * treasure-finished/treasure.py
 
-(Todos os recursos acima também podem ser baixados como arquivos de projeto e de voluntário no formato `.zip`.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Objetivos de aprendizado
+## Learning Objectives
 
 * Sense HAT joystick;
 * Boolean logic;
 
-Este projeto abrange elementos das seguintes vertentes do [Currículo de Criação Digital Raspberry Pi](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Desafios
+## Challenges
 
 * Customize the game - use different colours or add text messages. 
 * Make it harder - show the coin for less time or confuse players by filling the display with coins after showing the hidden coin. 
 
 \--- /collapse \---
 
-## \--- colapso \---
+## \--- collapse \---
 
-## Título: Materiais do projeto
+## title: Project materials
 
-## Recursos do projeto
+## Project resources
 
-* [arquivo.zip contendo todos os recursos do projeto](resources/treasure-project-resources.zip)
-* [Projeto inicial](http://jumpto.cc/treasure-go)
+* [.zip file containing all project resources](resources/treasure-project-resources.zip)
+* [Starter project](http://jumpto.cc/treasure-go)
 * [Offline starter Python file](resources/treasure-treasure.py)
 
-## Recursos do líder do clube
+## Club leader resources
 
-* [arquivo .zip contém todos os recursos do projeto](resources/treasure-volunteer-resources.zip)
-* [Projeto Trinket online e completo](https://trinket.io/python/79ac6a377d)
+* [.zip file containing all completed project resources](resources/treasure-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/79ac6a377d)
 * [treasure-finished/treasure.py](resources/treasure-finished-treasure.py)
 
 \--- /collapse \---
