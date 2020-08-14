@@ -1,15 +1,15 @@
 ## Introduction :
 
-In this project you will use the joystick and LED Matrix on the Sense HAT to play a memory game. The Sense HAT will show a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
+Dans ce projet, tu vas utiliser le joystick et la matrice LED du « Sense HAT » pour jouer à un jeu de mémoire. Le « Sense HAT » montrera une pièce d'or et tu dois te rappeler où elle était et utiliser le joystick pour trouver le trésor caché.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/79ac6a377d?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark">
 </iframe> <img src="images/treasure-final.png" />
 </div>
 
-To play the game press Run and watch to see where the yellow dot appears - this is the treasure! Then use the arrow keys on the keyboard to move the white dot to where you think the treasure is hidden. When you get there, press return. You'll see a green dot if you were correct and a red dot if you got it wrong. You'll get 10 tries and then a score out of 10.
+Pour jouer, appuie sur « Run » et regarde pour voir où le point jaune apparaît : c'est le trésor ! Utilise ensuite les touches fléchées du clavier pour déplacer le point blanc à l'endroit où tu penses que le trésor est caché. Une fois sur place, appuie sur Retour. Tu verras un point vert si tu avais raison et un point rouge si tu t'es trompé. Tu auras 10 essais, puis un score sur 10.
 
-Note that when you are using the Sense HAT emulator you use the arrow keys and return instead of the joystick on the Sense HAT.
+Remarque que lorsque tu utilises l'émulateur Sense HAT, tu utilises les touches fléchées et Entrée au lieu du joystick sur le Sense HAT.
 
 ### Informations complémentaires pour les responsables de club
 
@@ -21,21 +21,21 @@ Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](h
 
 ## Introduction :
 
-In this project, children will learn how to use the Sense HAT joystick to create a memory game. The Sense HAT shows a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
+Dans ce projet, les enfants apprendront à utiliser le joystick du « Sense HAT » pour créer un jeu de mémoire. Le Sense HAT montre une pièce d'or et il faut se souvenir de l'endroit où il était, et utiliser le joystick pour trouver le trésor caché.
 
-## Ressources en-ligne
+## Ressources en ligne
 
-**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. Ce projet contient les Trinkets suivants :
+**Ce projet utilise Python 3.** Nous vous recommandons d'utiliser [Trinket](https://trinket.io/) pour écrire du code Python en ligne. Ce projet contient les Trinkets suivants :
 
-* ['Where's the Treasure?' Starter Trinket -- jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
+* [« Où est le trésor ? » Trinket de départ - jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
 
-Il existe aussi ce trinket qui contient le projet completé:
+Il existe aussi un trinket qui contient le projet terminé :
 
-* [‘Where's the Treasure’ Finished -- trinket.io/python/79ac6a377d](https://trinket.io/python/79ac6a377d)
+* [« Où est le trésor ? » terminé - trinket.io/python/79ac6a377d](https://trinket.io/python/79ac6a377d)
 
-## Ressources hors-ligne
+## Ressources hors ligne
 
-This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. Vous pouvez accéder aux ressources du projet en cliquant sur le lien "Matériaux du projet". Ce lien contient une section "Ressources du projet" qui inclut les ressources dont les enfants auront besoin pour compléter le projet hors-ligne. Assurez-vous que les enfants ont accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
+Ce projet peut également être [terminé hors-ligne](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) sur un ordinateur Raspberry Pi avec un Sense HAT. Vous pouvez accéder aux ressources du projet en cliquant sur le lien "Matériaux du projet". Ce lien contient une section "Ressources du projet" qui inclut les ressources dont les enfants auront besoin pour compléter le projet hors-ligne. Assurez-vous que les enfants ont accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
 
 * treasure/treasure.py
 
@@ -47,8 +47,8 @@ Vous pouvez aussi trouver une version complétée du projet dans la section "Res
 
 ## Objectifs d'apprentissage
 
-* Sense HAT joystick;
-* Boolean logic;
+* Joystick du « Sense HAT » ;
+* Logique booléenne ;
 
 Ce projet couvre les éléments suivants du [Programme Raspberry Pi de Créativité Numérique](http://rpf.io/curriculum):
 
@@ -56,20 +56,20 @@ Ce projet couvre les éléments suivants du [Programme Raspberry Pi de Créativi
 
 ## Défis
 
-* Customize the game - use different colours or add text messages. 
-* Make it harder - show the coin for less time or confuse players by filling the display with coins after showing the hidden coin. 
+* Personnalise le jeu : utilise des couleurs différentes ou ajoute des messages textuels. 
+* Rends le jeu plus difficile : montre la pièce pendant moins longtemps ou perturbe les joueurs en remplissant l'écran avec des pièces après avoir montré la pièce cachée. 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Matériel pour projet
+## title: Matériel pour le projet
 
 ## Ressources du projet
 
 * [Fichier .zip contenant toutes les ressources du projet](resources/treasure-project-resources.zip)
-* [Starter project](http://jumpto.cc/treasure-go)
-* [Offline starter Python file](resources/treasure-treasure.py)
+* [Démarrage du projet](http://jumpto.cc/treasure-go)
+* [Fichier Python de démarrage hors ligne](resources/treasure-treasure.py)
 
 ## Ressources pour le responsable de club
 
