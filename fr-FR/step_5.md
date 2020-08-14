@@ -1,7 +1,7 @@
-\--- challange \---
+—- challenge —-
 
-## Challenge: Customize the game
+## Défi : personnaliser le jeu
 
-Try using different colours or showing a different message depending on how well the player did.
+Essaye d'utiliser différentes couleurs ou d'afficher un message différent selon la performance du joueur.
 
 \--- /challenge \---
