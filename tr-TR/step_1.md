@@ -1,4 +1,4 @@
-## Giriş:
+## Introduction:
 
 In this project you will use the joystick and LED Matrix on the Sense HAT to play a memory game. The Sense HAT will show a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
@@ -11,15 +11,15 @@ To play the game press Run and watch to see where the yellow dot appears - this 
 
 Note that when you are using the Sense HAT emulator you use the arrow keys and return instead of the joystick on the Sense HAT.
 
-### Kulüp liderleri için ek bilgiler
+### Additional information for club leaders
 
-Bu projeyi yazdırmanız gerekiyorsa, lütfen [Yazıcı dostu sürümü](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print) kullanın.
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print).
 
-## \--- küçült \---
+## \--- collapse \---
 
-## title: Kulüp lideri notları
+## title: Club leader notes
 
-## Giriş:
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT joystick to create a memory game. The Sense HAT shows a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
@@ -50,11 +50,11 @@ You can also find a completed version of this project in the 'Volunteer Resource
 * Sense HAT joystick;
 * Boolean logic;
 
-Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un aşağıdaki bölümlerinden unsurları kapsamaktadır:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 * [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Meydan Okumalar
+## Challenges
 
 * Customize the game - use different colours or add text messages. 
 * Make it harder - show the coin for less time or confuse players by filling the display with coins after showing the hidden coin. 
@@ -63,7 +63,7 @@ Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un
 
 ## \--- collapse \---
 
-## title: Proje materyalleri
+## title: Project materials
 
 ## Project resources
 
@@ -71,7 +71,7 @@ Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un
 * [Starter project](http://jumpto.cc/treasure-go)
 * [Offline starter Python file](resources/treasure-treasure.py)
 
-## Kulüp lideri için kaynaklar
+## Club leader resources
 
 * [.zip file containing all completed project resources](resources/treasure-volunteer-resources.zip)
 * [Online completed Trinket project](https://trinket.io/python/79ac6a377d)
