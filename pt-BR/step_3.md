@@ -18,11 +18,11 @@ Now let's add a pixel that the player can move to where they think the treasure 
 
 + Let's get the white pixel moving using the joystick. Every time the player presses one of the arrow keys on the joystick we need to clear the current pixel and draw one at the new location. Let's start by allowing the player to move in the y direction (up and down):
     
-    ![captura de tela](images/treasure-move-y.png)
+    ![screenshot](images/treasure-move-y.png)
 
 + Test your code by pressing the up and down arrows on the keyboard.
     
-    ![captura de tela](images/treasure-arrow-keys.png)
+    ![screenshot](images/treasure-arrow-keys.png)
     
     What happens when you reach the top edge and press up?
     
@@ -32,11 +32,11 @@ Now let's add a pixel that the player can move to where they think the treasure 
 
 + Let's add a check to make sure the pixel stays on the display:
     
-    ![captura de tela](images/treasure-move-check.png)
+    ![screenshot](images/treasure-move-check.png)
 
-+ Now let's add movement in the x direction. Adicione o código destacado:
++ Now let's add movement in the x direction. Add the highlighted code:
     
-    ![captura](images/treasure-move.png)
+    ![screenshot](images/treasure-move.png)
 
 + Once you have moved to the location where you think the treasure is hidden you need to press the middle button on the joystick. In the emulator you'll need to press Enter (Return) on the keyboard.
     
