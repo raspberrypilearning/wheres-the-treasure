@@ -10,7 +10,7 @@ First let's show a yellow coin at a random pixel and then hide it.
 
 + Let's display a yellow coin at a random location and then hide it. The `coinx` and `coiny` variables are the x and y coordinates of the coin. Go to the bottom of the script and add the following code:
     
-    ![Screenshot](images/treasure-coin.png)
+    ![screenshot](images/treasure-coin.png)
     
     Make sure you use a capital letter `Y`.
 
