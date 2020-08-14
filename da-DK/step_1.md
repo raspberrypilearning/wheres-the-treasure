@@ -1,4 +1,4 @@
-## Tillykke Med Fødselsdagen:
+## Introduction:
 
 In this project you will use the joystick and LED Matrix on the Sense HAT to play a memory game. The Sense HAT will show a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
@@ -11,15 +11,15 @@ To play the game press Run and watch to see where the yellow dot appears - this 
 
 Note that when you are using the Sense HAT emulator you use the arrow keys and return instead of the joystick on the Sense HAT.
 
-### Yderligere oplysninger for klubledere
+### Additional information for club leaders
 
-Hvis du har brug for at udskrive dette projekt skal du bruge den [Printventlige version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print).
 
 ## \--- collapse \---
 
-## title: Klubledernotater
+## title: Club leader notes
 
-## Tillykke Med Fødselsdagen:
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT joystick to create a memory game. The Sense HAT shows a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
@@ -45,16 +45,16 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Læringsmål
+## Learning Objectives
 
 * Sense HAT joystick;
 * Boolean logic;
 
-Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Kombiner programmeringskonstruktioner for at løse et problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Udfordringer
+## Challenges
 
 * Customize the game - use different colours or add text messages. 
 * Make it harder - show the coin for less time or confuse players by filling the display with coins after showing the hidden coin. 
@@ -63,7 +63,7 @@ Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital M
 
 ## \--- collapse \---
 
-## title: Projektmaterialer
+## title: Project materials
 
 ## Project resources
 
@@ -71,7 +71,7 @@ Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital M
 * [Starter project](http://jumpto.cc/treasure-go)
 * [Offline starter Python file](resources/treasure-treasure.py)
 
-## Klubleder resurser
+## Club leader resources
 
 * [.zip file containing all completed project resources](resources/treasure-volunteer-resources.zip)
 * [Online completed Trinket project](https://trinket.io/python/79ac6a377d)
