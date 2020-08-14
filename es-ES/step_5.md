@@ -1,4 +1,4 @@
-\--- desafío \---
+\--- challenge \---
 
 ## Challenge: Customize the game
 
