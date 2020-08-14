@@ -1,4 +1,4 @@
-## はじめに
+## Introduction:
 
 In this project you will use the joystick and LED Matrix on the Sense HAT to play a memory game. The Sense HAT will show a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
@@ -11,50 +11,50 @@ To play the game press Run and watch to see where the yellow dot appears - this 
 
 Note that when you are using the Sense HAT emulator you use the arrow keys and return instead of the joystick on the Sense HAT.
 
-### クラブリーダーのための追加情報
+### Additional information for club leaders
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print)を使用してください。
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print).
 
 ## \--- collapse \---
 
-## title：クラブリーダー・ノート
+## title: Club leader notes
 
-## はじめに
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT joystick to create a memory game. The Sense HAT shows a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
-## オンライン・リソース
+## Online Resources
 
-**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. 本プロジェクトには、以下のtrinketが用意されています：
+**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 * ['Where's the Treasure?' Starter Trinket -- jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
 
-また、完成版プログラムが入力済みのtrinketも用意されています。
+There is also a trinket containing the completed project:
 
 * [‘Where's the Treasure’ Finished -- trinket.io/python/79ac6a377d](https://trinket.io/python/79ac6a377d)
 
-## オフライン・リソース
+## Offline Resources
 
-This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. “プロジェクト資料”のリンクをクリックすることでこのプロジェクトのリソースにアクセスすることが可能です。 リンクには”プロジェクト・リソース”の個所もあり、ここにプロジェクトをオフラインで完成させるために必要なリソースが含まれている。 各子供がこのリソースのコピーを持っていることを確認してください。 このセクションは下記ファイルを含む：
+This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 * treasure/treasure.py
 
-また、以下の完成版プログラムは、「リーダー用ノート」セクションから入手可能です。
+You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 
 * treasure-finished/treasure.py
 
-また、すべての上記のリソースはプロジェクトとボランティア`.zip` ファイルとしてダウンロードすることも可能。
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## 学習目標
+## Learning Objectives
 
 * Sense HAT joystick;
 * Boolean logic;
 
-このプロジェクトは [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum)の中から、以下の内容を取り扱います：
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [プログラミング構造を組み合わせて問題を解決する。](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## チャレンジ
+## Challenges
 
 * Customize the game - use different colours or add text messages. 
 * Make it harder - show the coin for less time or confuse players by filling the display with coins after showing the hidden coin. 
@@ -63,18 +63,18 @@ This project can also be [completed offline](https://www.codeclubprojects.org/en
 
 ## \--- collapse \---
 
-## title: プロジェクト資料
+## title: Project materials
 
-## プロジェクト資料
+## Project resources
 
-* [全プロジェクト・リソースの入った.zipファイル](resources/treasure-project-resources.zip)
+* [.zip file containing all project resources](resources/treasure-project-resources.zip)
 * [Starter project](http://jumpto.cc/treasure-go)
 * [Offline starter Python file](resources/treasure-treasure.py)
 
-## クラブ・リーダー向けリソース
+## Club leader resources
 
-* [全プロジェクトの完成版リソースの入った.zipファイル](resources/treasure-volunteer-resources.zip)
-* [完成版プロジェクトのオンラインtrinket](https://trinket.io/python/79ac6a377d)
+* [.zip file containing all completed project resources](resources/treasure-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/79ac6a377d)
 * [treasure-finished/treasure.py](resources/treasure-finished-treasure.py)
 
 \--- /collapse \---
