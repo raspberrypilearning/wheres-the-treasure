@@ -1,29 +1,32 @@
-## Keeping score
+## حفظ النتيجة
 
-At the moment you only get one go at finding the treasure. Let's give the player 10 turns and keep a score.
+في الوقت الحالي تحصل على دور واحد فقط للعثور على الكنز. دعونا نعطي اللاعب 10 ادوار والحفاظ على النتيجة.
 
-+ Now you'll need a `for` loop to let the player have 10 goes at finding the treasure:
++ ستحتاج الآن إلى ` لـ ` حلقة للسماح للاعب ب 10 ادوار للعثور على الكنز:
     
     ![لقطة الشاشة](images/treasure-turns.png)
 
-+ In Python, code must be indented to be inside a loop. You don't need to indent the lines one at a time though! Highlight all of the code after the `for` loop then press the 'Tab' on the keyboard and it will all be indented.
++ في Python ، يجب وضع مسافة بادئة للرمز ليكون داخل حلقة. لا تحتاج إلى قطع مسافة بادئة للسطر واحدًا تلو الآخر! قم بتمييز جميع الرموز بعد حلقة ` for ` ثم اضغط على "Tab" على لوحة المفاتيح وستوضع مسافة بادئة لها.
     
     ![لقطة الشاشة](images/treasure-indent.png)
     
-    Make sure all of the code after the `for` gets indented, right to the bottom of the code.
+    تأكد من الكود البرمجي بعد ` for ` يحصل على مسافة بادئة أسفل الرمز مباشرة.
 
-+ Next add a score variable which starts at zero:
++ بعد ذلك ، أضف متغير النتيجة الذي يبدأ عند صفر:
     
     ![لقطة الشاشة](images/treasure-score-variable.png)
 
-+ You'll also need to add one to the score when a player chooses the correct location:
++ ستحتاج أيضًا إلى إضافة واحد إلى النتيجة عندما يختار اللاعب الموقع الصحيح:
     
     ![لقطة الشاشة](images/treasure-score.png)
 
-+ And finally, let's display the score at the end.
++ وأخيرًا ، فلنعرض النتيجة في النهاية.
     
     ![لقطة الشاشة](images/treasure-show-score.png)
     
-    Make sure there's no indentation before this code, it needs to run after the `for` loop has run 10 times and the game is finished.
-    
-    + Now play the game. Can you score 10 out 10?
+    تأكد من عدم وجود مسافة بادئة قبل هذا الكود البرمجي، حيث يجب تشغيله بعد حلقة  for</0 > ل 10 مرات ومن ثم تنتهي اللعبة.</p>
+
+<ul>
+<li>الآن العب اللعبة. هل يمكنك تسجيل 10 من أصل 10؟</li>
+</ul></li>
+</ul>
