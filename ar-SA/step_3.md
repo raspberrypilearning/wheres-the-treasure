@@ -1,49 +1,49 @@
-## Finding the treasure
+## البحث عن الكنز
 
-Now let's show the player as a white pixel. You'll need to use the Sense HAT joystick to navigate to where you think the treasure is hidden.
+الآن دعونا نعرض اللاعب كبيكسل بيضاء. ستحتاج إلى استخدام عصا تحكم Sense HAT للانتقال إلى حيث تعتقد أن الكنز مخفي.
 
-The physical Sense Hat has a mini joystick. You can see a picture of it in the emulator:
+ستجد عصا تحكم صغيرة في النسخة المادية من Sense Hat. يمكنك رؤية صورة لها في المحاكي:
 
 ![لقطة شاشة](images/treasure-joystick.png)
 
-In the emulator you can use the arrow keys for the direction buttons on the joystick and Enter (Return) for pressing the middle button.
+في المحاكي ، يمكنك استخدام مفاتيح الأسهم لأزرار الاتجاه الموجودة على عصا التحكم ومفتاح (رجوع) للضغط على الزر الأوسط.
 
-Now let's add a pixel that the player can move to where they think the treasure is hidden. The player is a white pixel.
+الآن دعنا نضيف بكسل يمكن للاعب الانتقال إليه حيث يعتقد أن الكنز مخفي. اللاعب هو بكسل أبيض.
 
-+ Now display the player's location using a white pixel:
++ الآن اعرض موقع اللاعب باستخدام بكسل أبيض:
     
     ![لقطة الشاشة](images/treasure-player.png)
     
-    `x` and `y` are the player's coordinates.
+    `س` و `ص` هما احداثيات اللاعب.
 
-+ Let's get the white pixel moving using the joystick. Every time the player presses one of the arrow keys on the joystick we need to clear the current pixel and draw one at the new location. Let's start by allowing the player to move in the y direction (up and down):
++ دعنا تحريك البكسل الأبيض باستخدام عصا التحكم. في كل مرة يضغط فيها اللاعب على أحد مفاتيح الأسهم على عصا التحكم ، نحتاج إلى مسح البكسل الحالي ورسم واحد في الموقع الجديد. لنبدأ بالسماح للاعب بالتحرك في اتجاه ص (لأعلى ولأسفل):
     
     ![لقطة الشاشة](images/treasure-move-y.png)
 
-+ Test your code by pressing the up and down arrows on the keyboard.
++ اختبر الكود البرمجي الخاص بك بالضغط على السهمين لأعلى ولأسفل على لوحة المفاتيح.
     
     ![لقطة الشاشة](images/treasure-arrow-keys.png)
     
-    What happens when you reach the top edge and press up?
+    ماذا يحدث عندما تصل إلى الحافة العلوية وتضغط لأعلى؟
     
     ![لقطة الشاشة](images/treasure-error.png)
     
-    If the y position goes below 0 or above 7 then you'll get an error when you try and set the pixel colour.
+    إذا كان الموضع "ص" أقل من 0 أو أعلى 7 ، فسوف تحصل على خطأ عند محاولة تعيين لون البكسل.
 
-+ Let's add a check to make sure the pixel stays on the display:
++ دعونا نضيف شيئاً للتأكد من بقاء البكسل على الشاشة:
     
     ![لقطة الشاشة](images/treasure-move-check.png)
 
-+ Now let's add movement in the x direction. Add the highlighted code:
++ الآن دعنا نضيف حركة في الاتجاه س. أضف الكود المظلل:
     
     ![لقطة الشاشة](images/treasure-move.png)
 
-+ Once you have moved to the location where you think the treasure is hidden you need to press the middle button on the joystick. In the emulator you'll need to press Enter (Return) on the keyboard.
++ بمجرد انتقالك إلى الموقع الذي تعتقد أن الكنز مخفي، ستحتاج إلى الضغط على الزر الأوسط في عصا التحكم. في المحاكي ، ستحتاج إلى الضغط على Enter (رجوع) على لوحة المفاتيح.
     
-    If the player is at the same location as the treasure then they've found it and the pixel goes green for 1 second.
+    إذا كان اللاعب في نفس موقع الكنز ، فقد وجدوه وسيتحول لون البكسل إلى اللون الأخضر لمدة ثانية واحدة.
     
-    If the player has picked the wrong location then the pixel goes red for 1 second.
+    إذا اختار اللاعب الموقع الخطأ ، فستتحول البكسل إلى اللون الأحمر لمدة ثانية واحدة.
     
     ![لقطة الشاشة](images/treasure-check.png)
     
-    `break` means we don't need to wait for more events after the player has chosen a location, we can stop repeating the loop.
+    ` استراحة ` تعني أننا لسنا بحاجة إلى انتظار المزيد من الأحداث بعد أن يختار اللاعب موقعًا ، يمكننا التوقف عن تكرار الحلقة.
