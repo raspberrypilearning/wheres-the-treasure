@@ -11,20 +11,20 @@ description: Remember where the coin is hidden
 original_url: https://codeclubprojects.org/en-GB/sense-hat/wheres-the-treasure
 interests: games
 technologies: sense-hat
-site_areas: progetti
+site_areas: projects
 hardware: sense-hat
 software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduzione: '
+    title: 'Introduction: '
   - 
     title: Hiding the treasure
   - 
     title: Finding the treasure
   - 
-    title: Tenere il punteggio
+    title: Keeping score
   - 
     title: 'Challenge: Customize the game'
   - 
