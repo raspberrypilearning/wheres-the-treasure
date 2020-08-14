@@ -1,4 +1,4 @@
-\--- repte \---
+\--- challenge \---
 
 ## Challenge: Make it harder
 
