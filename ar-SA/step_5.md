@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Customize the game
+## التحدي: تخصيص اللعبة
 
-Try using different colours or showing a different message depending on how well the player did.
+حاول استخدام ألوان مختلفة أو إظهار رسالة مختلفة بناءً على مدى جودة أداء اللاعب.
 
 \--- /challenge \---
