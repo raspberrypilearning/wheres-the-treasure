@@ -1,17 +1,17 @@
-## Hiding the treasure
+## Cacher le trésor
 
-First let's show a yellow coin at a random pixel and then hide it.
+Nous allons d'abord montrer une pièce jaune à un pixel aléatoire et ensuite la cacher.
 
-+ Open the Where's the Treasure? Starter Trinket: <a href="http://jumpto.cc/treasure-go" target="_blank">jumpto.cc/treasure-go</a>.
++ Ouvre le trinket de démarrage « Où est le trésor ? » : Trinket de démarrage : <a href="http://jumpto.cc/treasure-go" target="_blank">jumpto.cc/treasure-go</a>.
 
-+ Take a look at the code that has been included for you. This sets up the Sense HAT and the libraries you will be using, and also includes some helper code so that you can get to the interesting stuff more quickly:
++ Jette un œil au code qui a été inclus pour toi. Ceci configure le « Sense HAT » et les bibliothèques que tu utiliseras, et inclut également du code d'aide afin que tu puisses accéder aux choses intéressantes plus rapidement :
     
-    ![screenshot](images/treasure-starter.png)
+    ![capture d'écran](images/treasure-starter.png)
 
-+ Let's display a yellow coin at a random location and then hide it. The `coinx` and `coiny` variables are the x and y coordinates of the coin. Go to the bottom of the script and add the following code:
++ Affichons une pièce jaune à un endroit aléatoire et cachons-la. Les variables `piecex` et `piecey` sont les coordonnées x et y de la pièce. Va au bas du script et ajoute le code suivant :
     
     ![capture d'écran](images/treasure-coin.png)
     
-    Make sure you use a capital letter `Y`.
+    Assure-toi d'utiliser une lettre majuscule `Y`.
 
-+ Run your code a few times to see the coin appear and disappear at random locations.
++ Exécute ton code plusieurs fois pour voir la pièce apparaître et disparaître à des endroits aléatoires.
