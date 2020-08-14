@@ -1,49 +1,49 @@
-## खज़ाना ढूँढना
+## Finding the treasure
 
-आइए अब हम खिलाड़ी को एक सफेद पिक्सेल के रूप में दिखाएँ। आपको जहाँ खज़ाना छिपा हुआ लगता है, वहाँ तक नेविगेट करने के लिए आपको Sense HAT जॉयस्टिक का उपयोग करना होगा।
+Now let's show the player as a white pixel. You'll need to use the Sense HAT joystick to navigate to where you think the treasure is hidden.
 
-भौतिक Sense Hat में एक मिनी जॉयस्टिक है। आप एमुलेटर में इसका चित्र देख सकते हैं:
+The physical Sense Hat has a mini joystick. You can see a picture of it in the emulator:
 
-![स्क्रीनशॉट](images/treasure-joystick.png)
+![screenshot](images/treasure-joystick.png)
 
-एमुलेटर में आप जॉयस्टिक पर दिशा बटनों के लिए तीर कुंजियों का उपयोग कर सकते हैं और बीच का बटन दबाने के लिए एंटर (रिटर्न) दबा सकते हैं।
+In the emulator you can use the arrow keys for the direction buttons on the joystick and Enter (Return) for pressing the middle button.
 
-आइए अब एक पिक्सेल जोड़ते हैं जिसे खिलाड़ी उस जगह पर ले जा सकते हैं जहाँ उन्हें लगता है कि खज़ाना छिपा हुआ है। खिलाड़ी एक सफेद पिक्सेल है।
+Now let's add a pixel that the player can move to where they think the treasure is hidden. The player is a white pixel.
 
-+ अब सफेद पिक्सेल का उपयोग करके खिलाड़ी के स्थान को प्रदर्शित करें:
++ Now display the player's location using a white pixel:
     
-    ![स्क्रीनशॉट](images/treasure-player.png)
+    ![screenshot](images/treasure-player.png)
     
-    `x` और `y` खिलाड़ी के निर्देशांक हैं।
+    `x` and `y` are the player's coordinates.
 
-+ आइए जॉयस्टिक का उपयोग करके सफेद पिक्सेल को चलाएँ। हर बार जब खिलाड़ी जॉयस्टिक पर तीर कुंजियों में से किसी कुंजी को दबाता है तो हमें वर्तमान पिक्सेल को साफ़ करने और नए स्थान पर एक पिक्सेल बनाने की आवश्यकता होती है। आइए हम खिलाड़ी को y दिशा में (ऊपर और नीचे) चलने की अनुमति देकर आरंभ करें:
++ Let's get the white pixel moving using the joystick. Every time the player presses one of the arrow keys on the joystick we need to clear the current pixel and draw one at the new location. Let's start by allowing the player to move in the y direction (up and down):
     
-    ![स्क्रीनशॉट](images/treasure-move-y.png)
+    ![screenshot](images/treasure-move-y.png)
 
-+ कीबोर्ड पर ऊपर और नीचे के तीर दबाकर अपने कोड का परीक्षण करें।
++ Test your code by pressing the up and down arrows on the keyboard.
     
-    ![स्क्रीनशॉट](images/treasure-arrow-keys.png)
+    ![screenshot](images/treasure-arrow-keys.png)
     
-    जब आप ऊपर के किनारे तक पहुँच जाते हैं और ऊपर का तीर दबाते हैं तो क्या होता है?
+    What happens when you reach the top edge and press up?
     
-    ![स्क्रीनशॉट](images/treasure-error.png)
+    ![screenshot](images/treasure-error.png)
     
-    यदि y स्थिति 0 से नीचे या 7 से ऊपर चली जाती है तो पिक्सेल का रंग सेट करने का प्रयास करने पर आपको एक त्रुटि मिलेगी।
+    If the y position goes below 0 or above 7 then you'll get an error when you try and set the pixel colour.
 
-+ आइए यह सुनिश्चित करने के लिए हम एक जाँच जोड़ते हैं कि पिक्सेल डिस्प्ले पर बना रहता है:
++ Let's add a check to make sure the pixel stays on the display:
     
-    ![स्क्रीनशॉट](images/treasure-move-check.png)
+    ![screenshot](images/treasure-move-check.png)
 
-+ आइए अब हम x दिशा में हिलना-डुलना जोड़ें। हाइलाइट किए गए कोड को जोड़ें:
++ Now let's add movement in the x direction. Add the highlighted code:
     
-    ![स्क्रीनशॉट](images/treasure-move.png)
+    ![screenshot](images/treasure-move.png)
 
-+ एक बार जब आप उस स्थान पर चले जाते हैं, जहाँ आपको लगता है कि खज़ाना छिपा हुआ है, तो आपको जॉयस्टिक पर बीच का बटन दबाना होता है। एमुलेटर में आपको कीबोर्ड पर एंटर (रिटर्न) कुंजी को दबाना होगा।
++ Once you have moved to the location where you think the treasure is hidden you need to press the middle button on the joystick. In the emulator you'll need to press Enter (Return) on the keyboard.
     
-    यदि खिलाड़ी उसी स्थान पर है जहाँ खज़ाना है, तो उन्होंने इसे पा लिया है और पिक्सेल 1 सेकंड के लिए हरा हो जाता है।
+    If the player is at the same location as the treasure then they've found it and the pixel goes green for 1 second.
     
-    यदि खिलाड़ी ने गलत स्थान चुना है, तो पिक्सेल 1 सेकंड के लिए लाल हो जाता है।
+    If the player has picked the wrong location then the pixel goes red for 1 second.
     
-    ![स्क्रीनशॉट](images/treasure-check.png)
+    ![screenshot](images/treasure-check.png)
     
-    `break` का मतलब है कि खिलाड़ी द्वारा कोई स्थान चुन लेने के बाद हमें और अधिक घटनाओं की प्रतीक्षा करने की आवश्यकता नहीं है, हम लूप को दोहराना बंद कर सकते हैं।
+    `break` means we don't need to wait for more events after the player has chosen a location, we can stop repeating the loop.
