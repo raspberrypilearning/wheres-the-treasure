@@ -12,7 +12,7 @@ Now let's add a pixel that the player can move to where they think the treasure 
 
 + Now display the player's location using a white pixel:
     
-    ![Screenshot](images/treasure-player.png)
+    ![screenshot](images/treasure-player.png)
     
     `x` and `y` are the player's coordinates.
 
@@ -22,11 +22,11 @@ Now let's add a pixel that the player can move to where they think the treasure 
 
 + Test your code by pressing the up and down arrows on the keyboard.
     
-    ![Screenshot](images/treasure-arrow-keys.png)
+    ![screenshot](images/treasure-arrow-keys.png)
     
     What happens when you reach the top edge and press up?
     
-    ![Screenshot](images/treasure-error.png)
+    ![screenshot](images/treasure-error.png)
     
     If the y position goes below 0 or above 7 then you'll get an error when you try and set the pixel colour.
 
@@ -34,7 +34,7 @@ Now let's add a pixel that the player can move to where they think the treasure 
     
     ![screenshot](images/treasure-move-check.png)
 
-+ Now let's add movement in the x direction. Füge den markierten Code hinzu:
++ Now let's add movement in the x direction. Add the highlighted code:
     
     ![screenshot](images/treasure-move.png)
 
@@ -44,6 +44,6 @@ Now let's add a pixel that the player can move to where they think the treasure 
     
     If the player has picked the wrong location then the pixel goes red for 1 second.
     
-    ![Screenshot](images/treasure-check.png)
+    ![screenshot](images/treasure-check.png)
     
     `break` means we don't need to wait for more events after the player has chosen a location, we can stop repeating the loop.
