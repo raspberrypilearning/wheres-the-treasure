@@ -1,4 +1,4 @@
-## 介紹:
+## Introduction:
 
 In this project you will use the joystick and LED Matrix on the Sense HAT to play a memory game. The Sense HAT will show a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
@@ -11,15 +11,15 @@ To play the game press Run and watch to see where the yellow dot appears - this 
 
 Note that when you are using the Sense HAT emulator you use the arrow keys and return instead of the joystick on the Sense HAT.
 
-### Code Club 工作人員延伸閱讀
+### Additional information for club leaders
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print).
 
-## - - 自動隱藏選單 - -
+## \--- collapse \---
 
 ## title: Club leader notes
 
-## 介紹:
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT joystick to create a memory game. The Sense HAT shows a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
 
@@ -52,16 +52,16 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [結合程式設計結構來解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Challenges
 
 * Customize the game - use different colours or add text messages. 
 * Make it harder - show the coin for less time or confuse players by filling the display with coins after showing the hidden coin. 
 
-- - 自動隱藏選單 - -
+\--- /collapse \---
 
-## - - 自動隱藏選單 - -
+## \--- collapse \---
 
 ## title: Project materials
 
@@ -77,4 +77,4 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 * [Online completed Trinket project](https://trinket.io/python/79ac6a377d)
 * [treasure-finished/treasure.py](resources/treasure-finished-treasure.py)
 
-- - 自動隱藏選單 - -
+\--- /collapse \---
