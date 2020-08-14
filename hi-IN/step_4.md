@@ -1,29 +1,29 @@
-## स्कोर रखना
+## Keeping score
 
-फिलहाल खज़ाना ढूँढने के लिए आपको केवल एक बार जाना होता है। आइए हम खिलाड़ी को 10 अवसर दें और एक स्कोर रखें।
+At the moment you only get one go at finding the treasure. Let's give the player 10 turns and keep a score.
 
-+ अब आपको एक `for` लूप चाहिए होगा ताकि खिलाड़ी को खज़ाना खोजने के लिए 10 लूप मिलें:
++ Now you'll need a `for` loop to let the player have 10 goes at finding the treasure:
     
-    ![स्क्रीनशॉट](images/treasure-turns.png)
+    ![screenshot](images/treasure-turns.png)
 
-+ Python में, कोड को लूप के अंदर रखने के लिए इंडेंट किया जाना चाहिए। हालांकि आपको पंक्तियों को एक बार में एक पंक्ति के अनुसार इंडेंट करने की आवश्यकता नहीं होती है! `for` लूप के बाद पूरे कोड को हाइलाइट करें फिर कुंजीपटल पर 'टैब' दबाएँ और यह सब इंडेंट हो जाएगा।
++ In Python, code must be indented to be inside a loop. You don't need to indent the lines one at a time though! Highlight all of the code after the `for` loop then press the 'Tab' on the keyboard and it will all be indented.
     
-    ![स्क्रीनशॉट](images/treasure-indent.png)
+    ![screenshot](images/treasure-indent.png)
     
-    सुनिश्चित करें कि `for` के बाद का पूरा कोड, कोड के नीचे दाईं ओर इंडेंट हो जाता है।
+    Make sure all of the code after the `for` gets indented, right to the bottom of the code.
 
-+ इसके बाद एक स्कोर वेरिएबल जोड़ें जो शून्य से शुरू हो:
++ Next add a score variable which starts at zero:
     
-    ![स्क्रीनशॉट](images/treasure-score-variable.png)
+    ![screenshot](images/treasure-score-variable.png)
 
-+ जब कोई खिलाड़ी सही स्थान चुन लेता है तो आपको स्कोर में एक भी जोड़ना होगा:
++ You'll also need to add one to the score when a player chooses the correct location:
     
-    ![स्क्रीनशॉट](images/treasure-score.png)
+    ![screenshot](images/treasure-score.png)
 
-+ और अंततः, आइए अंत में हम स्कोर प्रदर्शित करें।
++ And finally, let's display the score at the end.
     
-    ![स्क्रीनशॉट](images/treasure-show-score.png)
+    ![screenshot](images/treasure-show-score.png)
     
-    सुनिश्चित करें कि इस कोड से पहले कोई इंडेंटेशन नहीं है, इसे `for` लूप के 10 बार चल चुकने के बाद चलना होगा और गेम समाप्त हो जाएगा।
+    Make sure there's no indentation before this code, it needs to run after the `for` loop has run 10 times and the game is finished.
     
-    + अब गेम खेलें। क्या आप 10 में से 10 स्कोर प्राप्त कर सकते हैं?
+    + Now play the game. Can you score 10 out 10?
