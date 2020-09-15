@@ -7,7 +7,7 @@ from random import randint
 sense = SenseHat()
 sense.clear()
 
-# Just return the actions we are interested in
+# आम्हाला स्वारस्य असलेल्या कृती परत करा
 def wait_for_move():
   while True:
     e = sense.stick.wait_for_event()
