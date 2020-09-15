@@ -13,7 +13,7 @@
 
 ### क्लब प्रमुखांसाठी अधिक माहिती
 
-आपल्याला जर हा प्रोजेक्ट प्रिंट करायचा असेल तर आपण [Printer friendly version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print)चा वापर करू शकता.
+तुम्हाला हा प्रकल्प प्रिंट करण्याची आवश्यकता असल्यास, कृपया [प्रिंट अनुकूल आवृत्ती](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print) वापरा.
 
 ## \--- collapse \---
 
@@ -35,7 +35,7 @@
 
 ## ऑफलाइन संसाधने
 
-हा प्रोजेक्ट Raspberry Pi Sense HAT असलेल्या कम्प्युतर [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) देखील पूर्ण केला जाऊ शकतो. तुम्ही या प्रोजेक्टचे संसाधने 'Project Material' च्या लिंक वर​ क्लिक करून मिळवू शकता. या लिंक मध्ये 'Project Resources' विभाग आहे, ज्यामध्ये मुलांना हा प्रोजेक्ट ऑफलाइन पूर्ण करण्यासाठी आवश्यक असणारी संसाधने आहेत. प्रत्येक मुलाकडे ह्या संसाधनांची एक प्रत असेल ह्याची खात्री करा. या विभागात खालील फायली समाविष्ट आहेत:
+हा प्रोजेक्ट Raspberry Pi संगणका बरोबर एका Sense Hat सह [ऑफलाइन](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) देखील पूर्ण केला जाऊ शकतो. तुम्ही या प्रोजेक्टचे संसाधने 'Project Materials' च्या लिंक वर​ क्लिक करून मिळवू शकता. या लिंक मध्ये 'Project Resources' विभाग आहे, ज्यामध्ये मुलांना हा प्रोजेक्ट ऑफलाइन पूर्ण करण्यासाठी आवश्यक असणारी संसाधने आहेत. प्रत्येक मुलाकडे ह्या संसाधनांची एक प्रत असेल ह्याची खात्री करा. या विभागात खालील फायली समाविष्ट आहेत:
 
 * treasure/treasure.py
 
