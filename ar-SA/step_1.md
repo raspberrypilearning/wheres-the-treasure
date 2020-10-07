@@ -38,11 +38,11 @@ title: ملاحظات قادة النادي
 
 يمكن أيضًا إكمال هذا المشروع [ بدون اتصال بالإنترنت ](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) على جهاز كمبيوتر Raspberry Pi به Sense HAT. يمكنك الوصول إلى موارد المشروع من خلال النقر فوق رابط "مواد المشروع" الخاص بهذا المشروع. يحتوي هذا الرابط على قسم "موارد المشروع"، الذي يتضمن الموارد التي يحتاج إليها الأطفال لإكمال هذا المشروع من دون اتصال بالإنترنت. تأكد من أن كل طفل لديه حق الوصول إلى نسخة من هذه الموارد. يتضمن هذا القسم الملفات التالية:
 
-* الكنز/الكنز.py
+* treasure/treasure.py
 
 يمكنك أيضًا العثور على نسخة كاملة من هذا المشروع في قسم "موارد المتطوعين"، الذي يحتوي على:
 
-* الكنز مكتمل/الكنز.py
+* treasure-finished/treasure.py
 
 (جميع الموارد المذكورة أعلاه قابلة للتنزيل أيضًا كملفات `.zip` للمشاريع والمتطوعين)
 
@@ -77,6 +77,6 @@ title: مواد المشروع
 
 * [ملف.zip يحتوي على جميع موارد المشروع المكتملة](resources/treasure-volunteer-resources.zip)
 * [مشروع Trinket المكتمل على الإنترنت](https://trinket.io/python/79ac6a377d)
-* [الكنز مكتمل/الكنز.py](resources/treasure-finished-treasure.py)
+* [treasure-finished/treasure.py](resources/treasure-finished-treasure.py)
 
 --- /collapse ---
