@@ -13,7 +13,7 @@
 
 ### ಕ್ಲಬ್ ಮುಖಂಡರಿಗೆ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ
 
-ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [Printer friendly version](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print) ಬಳಸಿ.
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿ](https://projects.raspberrypi.org/en/projects/wheres-the-treasure/print) ಬಳಸಿ.
 
 ## \--- collapse \---
 
@@ -27,7 +27,7 @@
 
 **ಈ ಯೋಜನೆಯು Python 3 ಬಳಸುತ್ತದೆ.** ನೀವು Python ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಬರೆಯಲು [Trinket](https://trinket.io/) ಬಳಸಲು ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ. ಈ ಯೋಜನೆಯು ಕೆಳಗಿನ Trinkets ಒಳಗೊಂಡಿದೆ:
 
-* ['Where's the Treasure?' Starter Trinket -- jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
+* ['ನಿಧಿ ಎಲ್ಲಿದೆ?' Starter Trinket -- jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
 
 ಪೂರ್ಣವಾದ ಯೋಜನೆಯನ್ನು ಒಳಗೊಂಡಿರುವ trinket ಸಹ ಇದೆ:
 
@@ -35,7 +35,7 @@
 
 ## ಆಫ್‌ಲೈನ್ ಸಂಪನ್ಮೂಲಗಳು
 
-ಈ ಯೋಜನೆಯನ್ನು ಸೆನ್ಸ್ ಹ್ಯಾಟ್ ಹೊಂದಿರುವ Raspberry Pi ಕಂಪ್ಯೂಟರ್ ನಲ್ಲಿ ಆಫ್ ಲೈನ್ ನಲ್ಲಿಯೂ ( [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/)) ಪೂರ್ಣಗೊಳಿಸಬಹುದು. ಈ ಯೋಜನೆಗಾಗಿ 'Project Materials' ಲಿಂಕ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪಡೆಯಬಹುದು. ಈ ಲಿಂಕ್ 'ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳ' ವಿಭಾಗವನ್ನು ಒಳಗೊಂಡಿದೆ, ಇದರಲ್ಲಿ ಮಕ್ಕಳು ಈ ಯೋಜನೆಯನ್ನು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಪೂರ್ಣಗೊಳಿಸಲು ಬೇಕಾದ ಸಂಪನ್ಮೂಲಗಳು ಇವೆ. ಈ ಸಂಪನ್ಮೂಲಗಳ ಪ್ರತಿಕೃತಿ ( Copy) ಪ್ರತಿ ಮಗುವಿಗೆ ಲಭ್ಯವಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಈ ವಿಭಾಗವು ಕೆಳಗಿನ ಫೈಲ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:
+ಈ ಪ್ರಾಜೆಕ್ಟ್ ಅನ್ನು ಸೆನ್ಸ್ ಹ್ಯಾಟ್ (Sense HAT) ಹೊಂದಿರುವ ರಾಸ್ಪ್‌ಬೆರಿ ಪೈ (Raspberry Pi) ಕಂಪ್ಯೂಟರ್ ನಲ್ಲಿ [ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿಯೂ ಪೂರ್ಣಗೊಳಿಸಬಹುದು.](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/). ಈ ಯೋಜನೆಗಾಗಿ 'Project Materials' ಲಿಂಕ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪಡೆಯಬಹುದು. ಈ ಲಿಂಕ್ 'ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳ' ವಿಭಾಗವನ್ನು ಒಳಗೊಂಡಿದೆ, ಇದರಲ್ಲಿ ಮಕ್ಕಳು ಈ ಯೋಜನೆಯನ್ನು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಪೂರ್ಣಗೊಳಿಸಲು ಬೇಕಾದ ಸಂಪನ್ಮೂಲಗಳು ಇವೆ. ಈ ಸಂಪನ್ಮೂಲಗಳ ಪ್ರತಿಕೃತಿ ( Copy) ಪ್ರತಿ ಮಗುವಿಗೆ ಲಭ್ಯವಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಈ ವಿಭಾಗವು ಕೆಳಗಿನ ಫೈಲ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:
 
 * treasure/treasure.py
 
