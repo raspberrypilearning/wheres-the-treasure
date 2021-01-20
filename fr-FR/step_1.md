@@ -28,11 +28,11 @@ Dans ce projet, les enfants apprendront à utiliser le joystick du « Sense HAT 
 
 **Ce projet utilise Python 3.** Nous vous recommandons d'utiliser [Trinket](https://trinket.io/) pour écrire du code Python en ligne. Ce projet contient les Trinkets suivants :
 
-* [« Où est le trésor ? » Trinket de départ - jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
+* [« Où est le trésor ? » Trinket de départ - trinket.io/python/68966c8fd6](https://trinket.io/python/68966c8fd6)
 
 Il existe aussi un trinket qui contient le projet terminé :
 
-* [« Où est le trésor ? » terminé - trinket.io/python/79ac6a377d](https://trinket.io/python/79ac6a377d)
+* [« Où est le trésor ? » terminé - trinket.io/python/0ead6e0659](https://trinket.io/python/0ead6e0659)
 
 ## Ressources hors ligne
 

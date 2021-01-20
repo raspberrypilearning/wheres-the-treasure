@@ -2,7 +2,7 @@
 
 Primero mostremos una moneda amarilla en un píxel aleatorio y luego la ocultamos.
 
-+ Abre el Trinket de iniciación de ¿Dónde está el tesoro?: <a href="http://jumpto.cc/treasure-go" target="_blank">jumpto.cc/treasure-go</a>.
++ Abre el Trinket de iniciación de ¿Dónde está el tesoro?: <a href="https://trinket.io/python/0d058c5115" target="_blank">trinket.io/python/0d058c5115</a>.
 
 + Echa un vistazo al código que se ha incluido para ti. Esto configura el Sense HAT y las bibliotecas que vas a usar, también incluye algunos códigos de ayuda para que puedas llegar más rápido a las cosas interesantes:
     

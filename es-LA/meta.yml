@@ -20,6 +20,6 @@ steps:
   - title: 'Introducción: '
   - title: Escondiendo el tesoro
   - title: Encontrando el tesoro
-  - title: Manteniendo la puntuación
+  - title: Registrando la puntuación
   - title: 'Desafío: personaliza el juego'
   - title: 'Desafío: hazlo más difícil'

@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Desafío: Hazlo más difícil
+## Desafío: hazlo más difícil
 
 ¿Te parece que el juego es demasiado fácil? ¿Por qué no hacerlo más difícil?
 

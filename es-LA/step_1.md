@@ -28,11 +28,11 @@ En este proyecto, niños y niñas aprenderán a utilizar la palanca de mando Sen
 
 **Este proyecto utiliza Python 3.** Recomendamos el uso de [Trinket](https://trinket.io/) para escribir Python en línea. Este proyecto contiene los siguientes Trinkets:
 
-* ['¿Dónde está el tesoro?' Trinket de iniciación --jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
+* ['¿Dónde está el tesoro?' Trinket de iniciación -- trinket.io/python/0d058c5115](https://trinket.io/python/0d058c5115)
 
 También hay un Trinket que contiene el proyecto concluido:
 
-* ['¿Dónde está el tesoro?' Versión final -- trinket.io/python/79ac6a377d](https://trinket.io/python/79ac6a377d)
+* ['¿Dónde está el tesoro?' Versión final -- trinket.io/python/a193c0e951](https://trinket.io/python/a193c0e951)
 
 ## Recursos sin conexión
 

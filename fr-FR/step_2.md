@@ -2,7 +2,7 @@
 
 Nous allons d'abord montrer une pièce jaune à un pixel aléatoire et ensuite la cacher.
 
-+ Ouvre le trinket de démarrage « Où est le trésor ? » : Trinket de démarrage : <a href="http://jumpto.cc/treasure-go" target="_blank">jumpto.cc/treasure-go</a>.
++ Ouvre le trinket de démarrage « Où est le trésor ? » : Trinket de démarrage : <a href="https://trinket.io/python/68966c8fd6" target="_blank">trinket.io/python/68966c8fd6</a>.
 
 + Jette un œil au code qui a été inclus pour toi. Ceci configure le « Sense HAT » et les bibliothèques que tu utiliseras, et inclut également du code d'aide afin que tu puisses accéder aux choses intéressantes plus rapidement :
     
