@@ -7,7 +7,7 @@ from random import randint
 sense = SenseHat()
 sense.clear()
 
-# Just return the actions we are interested in
+# Solo devuelve las acciones que nos interesan
 def wait_for_move():
   while True:
     e = sense.stick.wait_for_event()
@@ -15,7 +15,7 @@ def wait_for_move():
       return e
 
 R = [255, 0, 0]  # rojo
-Y = [255, 255, 0] # amarillo
+A = [255, 255, 0] # amarillo
 V = [0, 255, 0] # verde
 B = [255, 255, 255] # blanco
 
@@ -23,17 +23,17 @@ puntuacion = 0
 
 for turns in range(10):
   
-  coinx = randint(0,7)
-  coiny = randint(0,7)
-  print(coinx, coiny)
+  monedax = randint(0,7)
+  moneday = randint(0,7)
+  print(monedax, moneday)
     
-  sense.set_pixel(coinx, coiny, Y)
+  sense.set_pixel(monedax, moneday, A)
   sleep(2)
   sense.clear()
     
   x = randint(0, 7)
   y = randint(0, 7)
-  sense.set_pixel(x, y, W)
+  sense.set_pixel(x, y, B)
     
   while True:
   
@@ -41,9 +41,9 @@ for turns in range(10):
     
     if e.direction == DIRECTION_MIDDLE:
       
-      if x == coinx and y == coiny:
-        sense.set_pixel(x, y, G)
-        score += 1
+      if x == monedax e y == moneday:
+        sense.set_pixel(x, y, V)
+        puntuacion += 1
       else:
         sense.set_pixel(x, y, R)
       
@@ -56,7 +56,7 @@ for turns in range(10):
     if e.direction ==  DIRECTION_UP and y > 0:
       y = y - 1
       
-    elif e.direction ==  DIRECTION_DOWN and y < 7:
+    elif e.direction == DIRECTION_DOWN and y < 7:
       y = y + 1
 
     elif e.direction ==  DIRECTION_LEFT and x > 0:
@@ -65,8 +65,8 @@ for turns in range(10):
     elif e.direction ==  DIRECTION_RIGHT and x < 7:
       x = x + 1
 
-    sense.set_pixel(x, y, W)
+    sense.set_pixel(x, y, B)
       
-sense.show_message("Score: " + str(score))       
+sense.show_message("Puntuacion: " + str(puntuacion))       
   
   
