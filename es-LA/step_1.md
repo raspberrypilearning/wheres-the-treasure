@@ -1,13 +1,13 @@
 ## Introducción:
 
-En este proyecto vas a utilizar la palanca de mando y la matriz LED en el Sense HAT para jugar un juego de memoria. The Sense HAT will show a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
+En este proyecto vas a utilizar la palanca de mando y la matriz LED en el Sense HAT para jugar un juego de memoria. El Sense HAT mostrará una moneda de oro, tendrás que recordar dónde estaba y utilizar la palanca de mando para encontrar el tesoro escondido.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/79ac6a377d?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark">
 </iframe> <img src="images/treasure-final.png" />
 </div>
 
-Para jugar, presiona Ejecutar y observa dónde aparece el punto amarillo: ¡ese es el tesoro! Luego utiliza las flechas del teclado para mover el punto blanco hacia donde crees que está escondido el tesoro. Cuando llegues ahí, presiona la tecla de retorno. Verás un punto verde si acertaste o un punto rojo si te equivocaste. You'll get 10 tries and then a score out of 10.
+Para jugar, presiona Ejecutar y observa dónde aparece el punto amarillo: ¡ese es el tesoro! Luego utiliza las flechas del teclado para mover el punto blanco hacia donde crees que está escondido el tesoro. Cuando llegues ahí, presiona la tecla de retorno. Verás un punto verde si acertaste o un punto rojo si te equivocaste. Tendrás 10 intentos y luego una puntuación sobre 10.
 
 Ten en cuenta que cuando utilices el emulador Sense HAT tendrás que utilizar las flechas del teclado y de retorno, en lugar de la palanca de mando en el Sense HAT.
 
@@ -21,7 +21,7 @@ Si necesitas imprimir este proyecto, por favor usa la [versión para imprimir](h
 
 ## Introducción:
 
-En este proyecto, niños y niñas aprenderán a utilizar la palanca de mando Sense HAT para crear un juego de memoria. The Sense HAT shows a gold coin and you have to remember where it was and use the joystick to find the hidden treasure.
+En este proyecto, niños y niñas aprenderán a utilizar la palanca de mando Sense HAT para crear un juego de memoria. El Sense HAT mostrará una moneda de oro, tendrás que recordar dónde estaba y utilizar la palanca de mando para encontrar el tesoro escondido.
 
 ## Recursos en línea
 
@@ -29,7 +29,7 @@ En este proyecto, niños y niñas aprenderán a utilizar la palanca de mando Sen
 
 * ['¿Dónde está el tesoro?' Trinket de iniciación --jumpto.cc/treasure-go](http://jumpto.cc/treasure-go)
 
-There is also a trinket containing the completed project:
+También hay un Trinket que contiene el proyecto concluido:
 
 * ['¿Dónde está el tesoro?' Versión final -- trinket.io/python/79ac6a377d](https://trinket.io/python/79ac6a377d)
 
@@ -50,14 +50,14 @@ También puedes encontrar una versión completa de este proyecto en la sección 
 * Palanca de mando Sense HAT;
 * Lógica booleana;
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este proyecto incluye elementos de los siguientes aspectos del [Currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum):
 
 * [Combina estructuras de programación para resolver un problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Desafíos
 
 * Personaliza el juego - usa diferentes colores o agrega mensajes de texto. 
-* Make it harder - show the coin for less time or confuse players by filling the display with coins after showing the hidden coin. 
+* Hazlo más difícil. Muestra la moneda por menos tiempo o confunde a los jugadores llenando el monitor con monedas después de mostrar la moneda oculta. 
 
 \--- /collapse \---
 
