@@ -1,29 +1,29 @@
-## Keeping score
+## Registrando la puntuación
 
-Por el momento solo tienes una oportunidad para encontrar el tesoro. Let's give the player 10 turns and keep a score.
+Por el momento solo tienes una oportunidad para encontrar el tesoro. Vamos a darle al jugador 10 turnos y registramos la puntuación.
 
-+ Now you'll need a `for` loop to let the player have 10 goes at finding the treasure:
++ Ahora necesitarás un bucle `for` para dejar que el jugador tenga 10 intentos para encontrar el tesoro:
     
-    ![screenshot](images/treasure-turns.png)
+    ![captura de pantalla](images/treasure-turns.png)
 
-+ In Python, code must be indented to be inside a loop. You don't need to indent the lines one at a time though! Highlight all of the code after the `for` loop then press the 'Tab' on the keyboard and it will all be indented.
++ En Python, el código debe estar indentado para estar dentro de un bucle. ¡Sin embargo, no es necesario indentar las líneas de una en una! Resalta todo el código después del bucle `for` luego presione el botón 'Tab' en el teclado y todo se indentará.
     
-    ![screenshot](images/treasure-indent.png)
+    ![captura de pantalla](images/treasure-indent.png)
     
     Asegúrate de que todo el código después de `for` se indenta, justo al final del código.
 
 + Luego agregue una variable de puntuación que comience en cero:
     
-    ![screenshot](images/treasure-score-variable.png)
+    ![captura de pantalla](images/treasure-score-variable.png)
 
 + También deberás agregar 1 a la puntuación cuando un jugador elija la ubicación correcta:
     
-    ![screenshot](images/treasure-score.png)
+    ![captura de pantalla](images/treasure-score.png)
 
 + Y por último, vamos a mostrar el puntaje al final.
     
-    ![screenshot](images/treasure-show-score.png)
+    ![captura de pantalla](images/treasure-show-score.png)
     
-    Make sure there's no indentation before this code, it needs to run after the `for` loop has run 10 times and the game is finished.
+    Asegúrate de que no haya indentación antes de este código. Debe ejecutarse después de que el bucle `for` se haya ejecutado 10 veces y el juego haya terminado.
     
     + Ahora juguemos. ¿Puedes conseguir una puntuación 10 de 10?
