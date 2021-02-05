@@ -1,17 +1,17 @@
-## Hiding the treasure
+## खज़ाना छिपाना
 
-First let's show a yellow coin at a random pixel and then hide it.
+आइए पहले हम किसी यादृच्छिक पिक्सेल पर एक पीला सिक्का दिखाएँ और फिर इसे छिपा दें।
 
-+ Open the Where's the Treasure? Starter Trinket: <a href="http://jumpto.cc/treasure-go" target="_blank">jumpto.cc/treasure-go</a>.
++ खोलें खज़ाना कहाँ है? स्टार्टर ट्रिंकेट: <a href="http://jumpto.cc/treasure-go" target="_blank">jumpto.cc/treasure-go</a>।
 
-+ Take a look at the code that has been included for you. This sets up the Sense HAT and the libraries you will be using, and also includes some helper code so that you can get to the interesting stuff more quickly:
++ उस कोड को देखें जिसे आपके लिए शामिल किया गया है। यह Sense HAT और आपके द्वारा उपयोग किए जा रहे पुस्तकालयों को सेट करता है, और इसमें कुछ सहायक कोड भी शामिल हैं ताकि आप दिलचस्प सामान को और अधिक तेज़ी से प्राप्त कर सकें:
     
-    ![screenshot](images/treasure-starter.png)
+    ![स्क्रीनशॉट](images/treasure-starter.png)
 
-+ Let's display a yellow coin at a random location and then hide it. The `coinx` and `coiny` variables are the x and y coordinates of the coin. Go to the bottom of the script and add the following code:
++ आइए हम किसी यादृच्छिक स्थान पर एक पीला सिक्का प्रदर्शित करें और फिर इसे छिपा दें। `coinx` और `coiny` वेरिएबल सिक्के के x और y निर्देशांक हैं। स्क्रिप्ट के नीचे जाएँ और निम्न कोड जोड़ें:
     
-    ![screenshot](images/treasure-coin.png)
+    ![स्क्रीनशॉट](images/treasure-coin.png)
     
-    Make sure you use a capital letter `Y`.
+    सुनिश्चित करें कि आप बड़े अक्षर `Y` का उपयोग करें।
 
-+ Run your code a few times to see the coin appear and disappear at random locations.
++ यादृच्छिक स्थानों पर सिक्का दिखाई देने और गायब होने को देखने के लिए अपना कोड कुछ बार चलाएँ।
