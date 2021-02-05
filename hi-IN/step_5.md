@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Customize the game
+## चुनौती: खेल को अनुकूलित करना
 
-Try using different colours or showing a different message depending on how well the player did.
+खिलाड़ी ने कितना अच्छा प्रदर्शन किया है, इस पर निर्भर करते हुए अलग-अलग रंगों का उपयोग करने या कोई अलग संदेश दिखाने का प्रयास करें।
 
 \--- /challenge \---
