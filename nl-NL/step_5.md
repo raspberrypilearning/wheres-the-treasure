@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Customize the game
+## Uitdaging: het spel aanpassen
 
-Try using different colours or showing a different message depending on how well the player did.
+Probeer verschillende kleuren te gebruiken of laat een ander bericht zien, afhankelijk van hoe goed de speler het heeft gedaan.
 
 \--- /challenge \---
