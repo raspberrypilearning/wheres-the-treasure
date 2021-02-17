@@ -1,29 +1,29 @@
-## Keeping score
+## Score bijhouden
 
-At the moment you only get one go at finding the treasure. Let's give the player 10 turns and keep a score.
+Op dit moment krijg je maar één kans om de schat te vinden. Laten we de speler 10 beurten geven en een score bijhouden.
 
-+ Now you'll need a `for` loop to let the player have 10 goes at finding the treasure:
++ Nu heb je een `for` lus nodig om de speler 10 beurten te geven om de schat te vinden:
     
-    ![screenshot](images/treasure-turns.png)
+    ![schermafbeelding](images/treasure-turns.png)
 
-+ In Python, code must be indented to be inside a loop. You don't need to indent the lines one at a time though! Highlight all of the code after the `for` loop then press the 'Tab' on the keyboard and it will all be indented.
++ In Python moet code ingesprongen zijn om in een lus te zitten. Je hoeft de regels echter niet één voor één in te springen! Markeer alle code na de `for` lus en druk vervolgens op de 'Tab'-toets op het toetsenbord en alles wordt ingesprongen.
     
-    ![screenshot](images/treasure-indent.png)
+    ![schermafbeelding](images/treasure-indent.png)
     
-    Make sure all of the code after the `for` gets indented, right to the bottom of the code.
+    Zorg ervoor dat alle code na de `for` is ingesprongen, helemaal tot onderaan de code.
 
-+ Next add a score variable which starts at zero:
++ Voeg vervolgens een variabele score toe die begint bij nul:
     
-    ![screenshot](images/treasure-score-variable.png)
+    ![schermafbeelding](images/treasure-score-variable.png)
 
-+ You'll also need to add one to the score when a player chooses the correct location:
++ Je moet er een bij de score optellen wanneer een speler de juiste locatie kiest:
     
-    ![screenshot](images/treasure-score.png)
+    ![schermafbeelding](images/treasure-score.png)
 
-+ And finally, let's display the score at the end.
++ En tot slot, laten we de score aan het einde weergeven.
     
-    ![screenshot](images/treasure-show-score.png)
+    ![schermafbeelding](images/treasure-show-score.png)
     
-    Make sure there's no indentation before this code, it needs to run after the `for` loop has run 10 times and the game is finished.
+    Zorg ervoor dat deze code niet ingesprongen is, deze moet worden uitgevoerd nadat de `for` lus 10 keer is uitgevoerd en het spel is afgelopen.
     
-    + Now play the game. Can you score 10 out 10?
+    + Speel nu het spel. Kun jij 10 op 10 scoren?
