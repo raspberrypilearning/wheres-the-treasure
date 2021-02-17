@@ -7,27 +7,27 @@ from random import randint
 sense = SenseHat()
 sense.clear()
 
-# Just return the actions we are interested in
-def wait_for_move():
+# Geef gewoon de acties terug waarin we geïnteresseerd zijn
+def wacht_op_zet():
   while True:
     e = sense.stick.wait_for_event()
     if e.action != ACTION_RELEASED:
       return e
 
-R = [255, 0, 0]  # red
-Y = [255, 255, 0] # yellow
-G = [0, 255, 0] # green
-W = [255, 255, 255] # white
+R = [255, 0, 0]  # rood
+Y = [255, 255, 0] # geel
+G = [0, 255, 0] # groen
+W = [255, 255, 255] # wit
 
 score = 0
 
-for turns in range(10):
+for beurten in range(10):
   
-  coinx = randint(0,7)
-  coiny = randint(0,7)
-  print(coinx, coiny)
+  muntx = randint(0,7)
+  munty = randint(0,7)
+  print(muntx, munty)
     
-  sense.set_pixel(coinx, coiny, Y)
+  sense.set_pixel(muntx, munty, Y)
   sleep(2)
   sense.clear()
     
@@ -37,11 +37,11 @@ for turns in range(10):
     
   while True:
   
-    e = wait_for_move()
+    e = wacht_op_zet()
     
     if e.direction == DIRECTION_MIDDLE:
       
-      if x == coinx and y == coiny:
+      if x == muntx and y == munty:
         sense.set_pixel(x, y, G)
         score += 1
       else:
