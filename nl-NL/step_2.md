@@ -1,17 +1,17 @@
-## Hiding the treasure
+## De schat verbergen
 
-First let's show a yellow coin at a random pixel and then hide it.
+Laten we eerst een gele munt op een willekeurige pixel tonen en deze vervolgens verbergen.
 
-+ Open the Where's the Treasure? Starter Trinket: <a href="http://jumpto.cc/treasure-go" target="_blank">jumpto.cc/treasure-go</a>.
++ Open de Waar is de schat? start Trinket: <a href="http://jumpto.cc/treasure-go" target="_blank">jumpto.cc/treasure-go</a>.
 
-+ Take a look at the code that has been included for you. This sets up the Sense HAT and the libraries you will be using, and also includes some helper code so that you can get to the interesting stuff more quickly:
++ Kijk eens naar de code die voor jou is opgenomen. Dit stelt de Sense HAT en de bibliotheken die je gaat gebruiken in, en bevat ook wat hulpcode zodat je sneller bij de interessante dingen kunt komen:
     
-    ![screenshot](images/treasure-starter.png)
+    ![schermafbeelding](images/treasure-starter.png)
 
-+ Let's display a yellow coin at a random location and then hide it. The `coinx` and `coiny` variables are the x and y coordinates of the coin. Go to the bottom of the script and add the following code:
++ Laten we een gele munt op een willekeurige locatie tonen en deze vervolgens verbergen. De `muntx` en `munty` variabelen zijn de x en y coördinaten van de munt. Ga naar de onderkant van het script en voeg de volgende code toe:
     
-    ![screenshot](images/treasure-coin.png)
+    ![schermafbeelding](images/treasure-coin.png)
     
-    Make sure you use a capital letter `Y`.
+    Zorg ervoor dat je een hoofdletter `Y` gebruikt.
 
-+ Run your code a few times to see the coin appear and disappear at random locations.
++ Voer je code een paar keer uit om de munt te zien verschijnen en verdwijnen op willekeurige locaties.
