@@ -1,49 +1,49 @@
-## Finding the treasure
+## De schat vinden
 
-Now let's show the player as a white pixel. You'll need to use the Sense HAT joystick to navigate to where you think the treasure is hidden.
+Laten we nu de speler tonen als een witte pixel. Je moet de Sense HAT-joystick gebruiken om te navigeren naar waar je denkt dat de schat verborgen is.
 
-The physical Sense Hat has a mini joystick. You can see a picture of it in the emulator:
+De fysieke Sense HAT heeft een mini-joystick. Je kunt er een plaatje van zien in de emulator:
 
-![screenshot](images/treasure-joystick.png)
+![schermafbeelding](images/treasure-joystick.png)
 
-In the emulator you can use the arrow keys for the direction buttons on the joystick and Enter (Return) for pressing the middle button.
+In de emulator kun je de pijltjestoetsen gebruiken voor de richting knoppen op de joystick en Enter (Return) voor het indrukken van de middelste knop.
 
-Now let's add a pixel that the player can move to where they think the treasure is hidden. The player is a white pixel.
+Laten we nu een pixel toevoegen die de speler kan verplaatsen naar waar hij denkt dat de schat verborgen is. De speler is een witte pixel.
 
-+ Now display the player's location using a white pixel:
++ Toon nu de locatie van de speler met een witte pixel:
     
-    ![screenshot](images/treasure-player.png)
+    ![schermafbeelding](images/treasure-player.png)
     
-    `x` and `y` are the player's coordinates.
+    `x` en `y` zijn de coördinaten van de speler.
 
-+ Let's get the white pixel moving using the joystick. Every time the player presses one of the arrow keys on the joystick we need to clear the current pixel and draw one at the new location. Let's start by allowing the player to move in the y direction (up and down):
++ Laten we de witte pixel bewegen met de joystick. Elke keer als de speler op een van de pijltjestoetsen op de joystick drukt, moeten we de huidige pixel wissen en er een op de nieuwe locatie tekenen. Laten we beginnen met de speler in de y-richting te laten bewegen (naar boven en omlaag):
     
-    ![screenshot](images/treasure-move-y.png)
+    ![schermafbeelding](images/treasure-move-y.png)
 
-+ Test your code by pressing the up and down arrows on the keyboard.
++ Test je code door op de pijltoetsen omhoog en omlaag op het toetsenbord te drukken.
     
-    ![screenshot](images/treasure-arrow-keys.png)
+    ![schermafbeelding](images/treasure-arrow-keys.png)
     
-    What happens when you reach the top edge and press up?
+    Wat gebeurt er als je de bovenrand bereikt en omhoog drukt?
     
-    ![screenshot](images/treasure-error.png)
+    ![schermafbeelding](images/treasure-error.png)
     
-    If the y position goes below 0 or above 7 then you'll get an error when you try and set the pixel colour.
+    Als de y-positie onder 0 of boven 7 komt, krijg je een foutmelding wanneer je de pixelkleur probeert in te stellen.
 
-+ Let's add a check to make sure the pixel stays on the display:
++ Laten we een controle toevoegen om ervoor te zorgen dat de pixel op het scherm blijft:
     
-    ![screenshot](images/treasure-move-check.png)
+    ![schermafbeelding](images/treasure-move-check.png)
 
-+ Now let's add movement in the x direction. Add the highlighted code:
++ Laten we nu beweging in de x-richting toevoegen. Voeg de gemarkeerde code toe:
     
-    ![screenshot](images/treasure-move.png)
+    ![schermafbeelding](images/treasure-move.png)
 
-+ Once you have moved to the location where you think the treasure is hidden you need to press the middle button on the joystick. In the emulator you'll need to press Enter (Return) on the keyboard.
++ Zodra je je hebt verplaatst naar de locatie waar je denkt dat de schat verborgen is, moet je op de middelste knop van de joystick drukken. In de emulator moet je op Enter (Return) op het toetsenbord drukken.
     
-    If the player is at the same location as the treasure then they've found it and the pixel goes green for 1 second.
+    Als de speler zich op dezelfde locatie bevindt als de schat, heeft hij deze gevonden en wordt de pixel 1 seconde groen.
     
-    If the player has picked the wrong location then the pixel goes red for 1 second.
+    Als de speler de verkeerde locatie heeft gekozen, wordt de pixel 1 seconde rood.
     
-    ![screenshot](images/treasure-check.png)
+    ![schermafbeelding](images/treasure-check.png)
     
-    `break` means we don't need to wait for more events after the player has chosen a location, we can stop repeating the loop.
+    `break` betekent dat we niet meer op gebeurtenissen hoeven te wachten nadat de speler een locatie heeft gekozen, we kunnen stoppen met herhalen van de lus.
