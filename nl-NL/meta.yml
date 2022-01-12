@@ -17,9 +17,11 @@ software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'Inleiding: '
-  - title: De schat verbergen
-  - title: De schat vinden
-  - title: Score bijhouden
-  - title: 'Uitdaging: het spel aanpassen'
-  - title: 'Uitdaging: maak het moeilijker'
+- title: 'Inleiding: '
+  completion: engaged
+- title: De schat verbergen
+- title: De schat vinden
+- title: Score bijhouden
+- title: 'Uitdaging: het spel aanpassen'
+  completion: internal
+- title: 'Uitdaging: maak het moeilijker'

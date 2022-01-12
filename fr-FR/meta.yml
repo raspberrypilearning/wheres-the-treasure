@@ -17,9 +17,11 @@ software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introduction
-  - title: Cacher le trésor
-  - title: Découvrir le trésor
-  - title: Conserver le score
-  - title: 'Défi : personnaliser le jeu'
-  - title: 'Défi : Rends-le plus difficile'
+- title: Introduction
+  completion: engaged
+- title: Cacher le trésor
+- title: Découvrir le trésor
+- title: Conserver le score
+- title: 'Défi : personnaliser le jeu'
+  completion: internal
+- title: 'Défi : Rends-le plus difficile'
