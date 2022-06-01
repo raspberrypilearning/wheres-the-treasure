@@ -17,9 +17,13 @@ software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'المقدمة: '
-  - title: إخفاء الكنز
-  - title: البحث عن الكنز
-  - title: حفظ النتيجة
-  - title: 'التحدي: تخصيص اللعبة'
-  - title: 'التحدي: اجعل الأمر أكثر صعوبة'
+- title: 'المقدمة: '
+- title: إخفاء الكنز
+- title: البحث عن الكنز
+  completion:
+  - engaged
+- title: حفظ النتيجة
+  completion:
+  - internal
+- title: 'التحدي: تخصيص اللعبة'
+- title: 'التحدي: اجعل الأمر أكثر صعوبة'
