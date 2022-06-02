@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'परिचय: '
-  completion: engaged
 - title: खज़ाना छिपाना
 - title: खज़ाना ढूँढना
+  completion:
+  - engaged
 - title: स्कोर रखना
+  completion:
+  - internal
 - title: 'चुनौती: खेल को अनुकूलित करें'
-  completion: internal
 - title: 'चुनौती: इसे कठिन बनाओ'

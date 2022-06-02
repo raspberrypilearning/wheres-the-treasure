@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'Introduction: '
-  completion: engaged
 - title: Hiding the treasure
 - title: Finding the treasure
+  completion:
+  - engaged
 - title: Keeping score
+  completion:
+  - internal
 - title: 'Challenge: Customize the game'
-  completion: internal
 - title: 'Challenge: Make it harder'

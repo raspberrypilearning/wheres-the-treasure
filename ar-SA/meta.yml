@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'المقدمة: '
-  completion: engaged
 - title: إخفاء الكنز
 - title: البحث عن الكنز
+  completion:
+  - engaged
 - title: حفظ النتيجة
+  completion:
+  - internal
 - title: 'التحدي: تخصيص اللعبة'
-  completion: internal
 - title: 'التحدي: اجعل الأمر أكثر صعوبة'

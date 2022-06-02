@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Cacher le trésor
 - title: Découvrir le trésor
+  completion:
+  - engaged
 - title: Conserver le score
+  completion:
+  - internal
 - title: 'Défi : personnaliser le jeu'
-  completion: internal
 - title: 'Défi : Rends-le plus difficile'

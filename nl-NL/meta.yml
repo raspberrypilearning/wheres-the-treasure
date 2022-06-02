@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'Inleiding: '
-  completion: engaged
 - title: De schat verbergen
 - title: De schat vinden
+  completion:
+  - engaged
 - title: Score bijhouden
+  completion:
+  - internal
 - title: 'Uitdaging: het spel aanpassen'
-  completion: internal
 - title: 'Uitdaging: maak het moeilijker'

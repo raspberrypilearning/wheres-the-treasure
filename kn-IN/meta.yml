@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'ಪರಿಚಯ: '
-  completion: engaged
 - title: ನಿಧಿಯನ್ನು ಮರೆಮಾಡುವುದು
 - title: ನಿಧಿಯನ್ನು ಹುಡುಕುವುದು
+  completion:
+  - engaged
 - title: ಸ್ಕೋರ್ ಇಟ್ಟುಕೊಳ್ಳುವುದು
+  completion:
+  - internal
 - title: 'ಸವಾಲು: ಆಟವನ್ನು ನವೀಕರಿಸಿ'
-  completion: internal
 - title: 'ಸವಾಲು: ಕಠಿಣಗೊಳಿಸಿ'

@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: परिचय
-  completion: engaged
 - title: खजिना लपवा
 - title: खजिना शोधा
+  completion:
+  - engaged
 - title: गुणांची नोंद
+  completion:
+  - internal
 - title: 'आव्हान: खेळ सानुकूलित करा'
-  completion: internal
 - title: 'आव्हान: त्याला अधिक कठीन बनवा'

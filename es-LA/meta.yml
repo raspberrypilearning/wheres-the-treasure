@@ -18,10 +18,12 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'Introducción: '
-  completion: engaged
 - title: Escondiendo el tesoro
 - title: Encontrando el tesoro
+  completion:
+  - engaged
 - title: Registrando la puntuación
+  completion:
+  - internal
 - title: 'Desafío: personaliza el juego'
-  completion: internal
 - title: 'Desafío: hazlo más difícil'
